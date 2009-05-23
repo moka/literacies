@@ -215,25 +215,8 @@ static void start_backend(void)
     char *realhost;
     int i;
 
-    /*
-     * Select protocol. This is farmed out into a table in a
-     * separate file to enable an ssh-free variant.
-     */
-    back = NULL;
-    for (i = 0; backends[i].backend != NULL; i++)
-	if (backends[i].protocol == cfg.protocol) {
-	    back = backends[i].backend;
-	    break;
-	}
+//dummy backend
 	back = &loop_backend;
-
-    if (back == NULL) {
-	char *str = dupprintf("%s Internal Error", appname);
-	MessageBox(NULL, "Unsupported protocol number found",
-		   str, MB_OK | MB_ICONEXCLAMATION);
-	sfree(str);
-	cleanup_exit(1);
-    }
     error = back->init(NULL, &backhandle, &cfg,
 		       cfg.host, cfg.port, &realhost, cfg.tcp_nodelay,
 		       cfg.tcp_keepalives);
@@ -247,8 +230,6 @@ static void start_backend(void)
 	exit(0);
     }
 
-/*
-*/
     window_name = icon_name = NULL;
     if (*cfg.wintitle) {
 	title = cfg.wintitle;

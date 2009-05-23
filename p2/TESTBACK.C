@@ -87,6 +87,9 @@ static const char *loop_init(void *frontend_handle, void **backend_handle,
 
     st->term = frontend_handle;
     *backend_handle = st;
+
+	prompts_t* pr = new_prompts(frontend_handle);
+    add_prompt(pr, dupstr("login as: "), TRUE,30); 
     return NULL;
 }
 
