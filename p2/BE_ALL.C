@@ -21,11 +21,20 @@ const int be_default_protocol = PROT_TELNET;
 #else
 const int be_default_protocol = PROT_SSH;
 #endif
-
 struct backend_list backends[] = {
     {PROT_SSH, "ssh", &ssh_backend},
-    {PROT_TELNET, "telnet", &telnet_backend},
+    {PROT_SSH, "ssh", &loop_backend},
+      {PROT_TELNET, "telnet", &telnet_backend},
     {PROT_RLOGIN, "rlogin", &rlogin_backend},
     {PROT_RAW, "raw", &raw_backend},
     {0, NULL}
 };
+/*
+struct backend_list backends[] = {
+    {PROT_SSH, "ssh", &loop_backend},
+      {PROT_TELNET, "telnet", &loop_backend},
+    {PROT_RLOGIN, "rlogin", &loop_backend},
+    {PROT_RAW, "raw", &loop_backend},
+    {0, NULL}
+};
+*/

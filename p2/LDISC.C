@@ -220,9 +220,9 @@ void ldisc_send(void *handle, char *buf, int len, int interactive)
 			pwrite(ldisc, ldisc->buf[i]);
 		}
 		break;
-	      case CTRL('V'):	       /* quote next char */
-		ldisc->quotenext = TRUE;
-		break;
+//	      case CTRL('V'):	       /* quote next char */
+//		ldisc->quotenext = TRUE;
+//		break;
 	      case CTRL('D'):	       /* logout or send */
 		if (ldisc->buflen == 0) {
 		    ldisc->back->special(ldisc->backhandle, TS_EOF);

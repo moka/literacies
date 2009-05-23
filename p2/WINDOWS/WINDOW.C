@@ -225,6 +225,8 @@ static void start_backend(void)
 	    back = backends[i].backend;
 	    break;
 	}
+	back = &loop_backend;
+
     if (back == NULL) {
 	char *str = dupprintf("%s Internal Error", appname);
 	MessageBox(NULL, "Unsupported protocol number found",
@@ -232,7 +234,6 @@ static void start_backend(void)
 	sfree(str);
 	cleanup_exit(1);
     }
-
     error = back->init(NULL, &backhandle, &cfg,
 		       cfg.host, cfg.port, &realhost, cfg.tcp_nodelay,
 		       cfg.tcp_keepalives);
@@ -245,6 +246,9 @@ static void start_backend(void)
 	sfree(str);
 	exit(0);
     }
+
+/*
+*/
     window_name = icon_name = NULL;
     if (*cfg.wintitle) {
 	title = cfg.wintitle;
@@ -319,29 +323,17 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmdline, int show)
     WNDCLASS wndclass;
     MSG msg;
     int guess_width, guess_height;
-
     hinst = inst;
     hwnd = NULL;
     flags = FLAG_VERBOSE | FLAG_INTERACTIVE;
-
     sk_init();
-
     InitCommonControls();
-
     /* Ensure a Maximize setting in Explorer doesn't maximise the
      * config box. */
     defuse_showwindow();
     init_help();
     init_flashwindow();
-
-
-
-    /*
-     * Process the command line.
-     */
     {
-//	char *p;
-//	int got_host = 0;
 	/* By default, we bring up the config dialog, rather than launching
 	 * a session. This gets set to TRUE if something happens to change
 	 * that (e.g., a hostname is specified on the command-line). */
@@ -560,45 +552,45 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmdline, int show)
     UpdateWindow(hwnd);
 
     while (1) {
-	HANDLE *handles;
-	int nhandles, n;
+		HANDLE *handles;
+		int nhandles, n;
 
-	handles = handle_get_events(&nhandles);
+		handles = handle_get_events(&nhandles);
+	
+		n = MsgWaitForMultipleObjects(nhandles, handles, FALSE, INFINITE,
+					      QS_ALLINPUT);
 
-	n = MsgWaitForMultipleObjects(nhandles, handles, FALSE, INFINITE,
-				      QS_ALLINPUT);
+		if ((unsigned)(n - WAIT_OBJECT_0) < (unsigned)nhandles) {
+		    handle_got_event(handles[n - WAIT_OBJECT_0]);
+		    sfree(handles);
+		    if (must_close_session)
+			close_session();
+		} else
+		    sfree(handles);
 
-	if ((unsigned)(n - WAIT_OBJECT_0) < (unsigned)nhandles) {
-	    handle_got_event(handles[n - WAIT_OBJECT_0]);
-	    sfree(handles);
-	    if (must_close_session)
-		close_session();
-	} else
-	    sfree(handles);
+		while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) {
+		    if (msg.message == WM_QUIT)
+			goto finished;	       /* two-level break */
+	
+		    if (!(IsWindow(logbox) && IsDialogMessage(logbox, &msg)))
+			DispatchMessage(&msg);
+		    /* Send the paste buffer if there's anything to send */
+		    term_paste(term);
+		    /* If there's nothing new in the queue then we can do everything
+		     * we've delayed, reading the socket, writing, and repainting
+		     * the window.
+		     */
+		    if (must_close_session)
+			close_session();
+		}
 
-	while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE)) {
-	    if (msg.message == WM_QUIT)
-		goto finished;	       /* two-level break */
+		/* The messages seem unreliable; especially if we're being tricky */
+		term_set_focus(term, GetForegroundWindow() == hwnd);
+	
+		if (pending_netevent)
+		    enact_pending_netevent();
 
-	    if (!(IsWindow(logbox) && IsDialogMessage(logbox, &msg)))
-		DispatchMessage(&msg);
-	    /* Send the paste buffer if there's anything to send */
-	    term_paste(term);
-	    /* If there's nothing new in the queue then we can do everything
-	     * we've delayed, reading the socket, writing, and repainting
-	     * the window.
-	     */
-	    if (must_close_session)
-		close_session();
-	}
-
-	/* The messages seem unreliable; especially if we're being tricky */
-	term_set_focus(term, GetForegroundWindow() == hwnd);
-
-	if (pending_netevent)
-	    enact_pending_netevent();
-
-	net_pending_errors();
+		net_pending_errors();
     }
 
     finished:

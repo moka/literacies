@@ -203,7 +203,7 @@ putty.exe: be_all_s.o cmdline.o config.o cproxy.o dialog.o ldisc.o \
 		sizetip.o ssh.o sshaes.o ssharcf.o sshblowf.o sshbn.o \
 		sshcrc.o sshcrcda.o sshdes.o sshdh.o sshdss.o sshmd5.o \
 		sshpubk.o sshrand.o sshrsa.o sshsh256.o sshsh512.o sshsha.o \
-		sshzlib.o telnet.o terminal.o timing.o tree234.o version.o \
+		sshzlib.o telnet.o terminal.o testback.o timing.o tree234.o version.o \
 		wcwidth.o wildcard.o wincfg.o winctrls.o windefs.o windlg.o \
 		window.o winhandl.o winhelp.o winmisc.o winnet.o winnoise.o \
 		winpgntc.o winprint.o winproxy.o winser.o winstore.o \
@@ -215,7 +215,7 @@ putty.exe: be_all_s.o cmdline.o config.o cproxy.o dialog.o ldisc.o \
 		ssh.o sshaes.o ssharcf.o sshblowf.o sshbn.o sshcrc.o \
 		sshcrcda.o sshdes.o sshdh.o sshdss.o sshmd5.o sshpubk.o \
 		sshrand.o sshrsa.o sshsh256.o sshsh512.o sshsha.o sshzlib.o \
-		telnet.o terminal.o timing.o tree234.o version.o wcwidth.o \
+		telnet.o terminal.o testback.o timing.o tree234.o version.o wcwidth.o \
 		wildcard.o wincfg.o winctrls.o windefs.o windlg.o window.o \
 		winhandl.o winhelp.o winmisc.o winnet.o winnoise.o \
 		winpgntc.o winprint.o winproxy.o winser.o winstore.o \
@@ -240,7 +240,7 @@ puttygen.exe: import.o misc.o notiming.o puttygen.res.o sshaes.o sshbn.o \
 puttytel.exe: be_nos_s.o cmdline.o config.o dialog.o ldisc.o ldiscucs.o \
 		logging.o minibidi.o misc.o nocproxy.o pinger.o proxy.o \
 		puttytel.res.o raw.o rlogin.o sercfg.o settings.o sizetip.o \
-		telnet.o terminal.o timing.o tree234.o version.o wcwidth.o \
+		telnet.o terminal.o testback.o timing.o tree234.o version.o wcwidth.o \
 		wincfg.o winctrls.o windefs.o windlg.o window.o winhandl.o \
 		winhelp.o winmisc.o winnet.o winprint.o winproxy.o winser.o \
 		winstore.o wintime.o winucs.o winutils.o
@@ -248,7 +248,7 @@ puttytel.exe: be_nos_s.o cmdline.o config.o dialog.o ldisc.o ldiscucs.o \
 		cmdline.o config.o dialog.o ldisc.o ldiscucs.o logging.o \
 		minibidi.o misc.o nocproxy.o pinger.o proxy.o puttytel.res.o \
 		raw.o rlogin.o sercfg.o settings.o sizetip.o telnet.o \
-		terminal.o timing.o tree234.o version.o wcwidth.o wincfg.o \
+		terminal.o testback.o timing.o tree234.o version.o wcwidth.o wincfg.o \
 		winctrls.o windefs.o windlg.o window.o winhandl.o winhelp.o \
 		winmisc.o winnet.o winprint.o winproxy.o winser.o winstore.o \
 		wintime.o winucs.o winutils.o -ladvapi32 -lcomctl32 \
@@ -614,6 +614,12 @@ rlogin.o: ../rlogin.c ../putty.h ../puttyps.h ../network.h ../misc.h \
 		../unix/unix.h ../puttymem.h ../tree234.h \
 		../windows/winhelp.h ../charset/charset.h
 	$(CC) $(COMPAT) $(CFLAGS) $(XFLAGS) -c ../rlogin.c
+
+testback.o: ../testback.c ../putty.h ../puttyps.h ../network.h ../misc.h \
+		../windows/winstuff.h ../mac/macstuff.h ../macosx/osx.h \
+		../unix/unix.h ../puttymem.h ../tree234.h \
+		../windows/winhelp.h ../charset/charset.h
+	$(CC) $(COMPAT) $(CFLAGS) $(XFLAGS) -c ../testback.c
 
 sbcs.o: ../charset/sbcs.c ../charset/charset.h ../charset/internal.h
 	$(CC) $(COMPAT) $(CFLAGS) $(XFLAGS) -c ../charset/sbcs.c

@@ -1475,75 +1475,75 @@ LOAD /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcr
  .rdata         0x00446a20      0xea0 settings.o
                 0x00446b80                _ttymodes
  .rdata         0x004478c0      0x3a0 sftp.o
- .rdata         0x00447c60     0x3ca0 ssh.o
- .rdata         0x0044b900     0x2580 sshaes.o
-                0x0044b900                _ssh2_aes
- .rdata         0x0044de80      0x100 ssharcf.o
-                0x0044df20                _ssh_arcfour128_ssh2
-                0x0044dec0                _ssh_arcfour256_ssh2
-                0x0044de80                _ssh2_arcfour
- .rdata         0x0044df80     0x1180 sshblowf.o
-                0x0044e04c                _ssh_blowfish_ssh1
-                0x0044df80                _ssh2_blowfish
- .rdata         0x0044f100       0x3c sshbn.o
- *fill*         0x0044f13c        0x4 00
- .rdata         0x0044f140      0x400 sshcrc.o
- .rdata         0x0044f540       0x54 sshcrcda.o
- *fill*         0x0044f594        0xc 00
- .rdata         0x0044f5a0      0xc20 sshdes.o
-                0x0044f600                _ssh2_des
-                0x0044f5b0                _ssh_des
-                0x0044f68c                _ssh2_3des
-                0x0044f5e4                _ssh_3des
- .rdata         0x004501c0      0x2e0 sshdh.o
-                0x00450254                _ssh_diffiehellman_group14
-                0x004501c0                _ssh_diffiehellman_gex
-                0x004503c0                _ssh_diffiehellman_group1
- .rdata         0x004504a0       0xe0 sshdss.o
-                0x004504c0                _ssh_dss
- .rdata         0x00450580       0x40 sshmd5.o
-                0x004505a0                _ssh_hmac_md5
- .rdata         0x004505c0      0x328 sshpubk.o
- *fill*         0x004508e8       0x18 00
- .rdata         0x00450900      0x100 sshrsa.o
-                0x00450920                _ssh_rsa
- .rdata         0x00450a00      0x120 sshsh256.o
-                0x00450a08                _ssh_sha256
- .rdata         0x00450b20      0x2c0 sshsh512.o
- .rdata         0x00450de0      0x160 sshsha.o
-                0x00450f00                _ssh_hmac_sha1
-                0x00450f28                _ssh_sha1
-                0x00450e80                _ssh_hmac_sha1_buggy
-                0x00450e20                _ssh_hmac_sha1_96_buggy
-                0x00450ec0                _ssh_hmac_sha1_96
- .rdata         0x00450f40      0x4e0 sshzlib.o
-                0x00450f60                _ssh_zlib
- .rdata         0x00451420       0x3c tree234.o
- .rdata         0x0045145c       0xf0 wildcard.o
- *fill*         0x0045154c       0x14 00
- .rdata         0x00451560      0xca0 wincons.o
- .rdata         0x00452200       0x24 windefs.o
- .rdata         0x00452224       0x58 winhandl.o
- .rdata         0x0045227c       0x20 winmisc.o
-                0x0045227c                _platform_x11_best_transport
- *fill*         0x0045229c        0x4 00
- .rdata         0x004522a0      0xc20 winnet.o
-                0x004522b0                _in6addr_any
-                0x004522a0                _in6addr_loopback
- .rdata         0x00452ec0       0x1c winpgntc.o
- *fill*         0x00452edc        0x4 00
- .rdata         0x00452ee0       0xc0 winproxy.o
- .rdata         0x00452fa0       0xc0 winsftp.o
- .rdata         0x00453060      0x398 winstore.o
- .rdata         0x004533f8      0x250 x11fwd.o
-                0x00453420                _x11_authnames
+ .rdata         0x00447c60     0x3cc0 ssh.o
+ .rdata         0x0044b920     0x2580 sshaes.o
+                0x0044b920                _ssh2_aes
+ .rdata         0x0044dea0      0x100 ssharcf.o
+                0x0044df40                _ssh_arcfour128_ssh2
+                0x0044dee0                _ssh_arcfour256_ssh2
+                0x0044dea0                _ssh2_arcfour
+ .rdata         0x0044dfa0     0x1180 sshblowf.o
+                0x0044e06c                _ssh_blowfish_ssh1
+                0x0044dfa0                _ssh2_blowfish
+ .rdata         0x0044f120       0x3c sshbn.o
+ *fill*         0x0044f15c        0x4 00
+ .rdata         0x0044f160      0x400 sshcrc.o
+ .rdata         0x0044f560       0x54 sshcrcda.o
+ *fill*         0x0044f5b4        0xc 00
+ .rdata         0x0044f5c0      0xc20 sshdes.o
+                0x0044f620                _ssh2_des
+                0x0044f5d0                _ssh_des
+                0x0044f6ac                _ssh2_3des
+                0x0044f604                _ssh_3des
+ .rdata         0x004501e0      0x2e0 sshdh.o
+                0x00450274                _ssh_diffiehellman_group14
+                0x004501e0                _ssh_diffiehellman_gex
+                0x004503e0                _ssh_diffiehellman_group1
+ .rdata         0x004504c0       0xe0 sshdss.o
+                0x004504e0                _ssh_dss
+ .rdata         0x004505a0       0x40 sshmd5.o
+                0x004505c0                _ssh_hmac_md5
+ .rdata         0x004505e0      0x328 sshpubk.o
+ *fill*         0x00450908       0x18 00
+ .rdata         0x00450920      0x100 sshrsa.o
+                0x00450940                _ssh_rsa
+ .rdata         0x00450a20      0x120 sshsh256.o
+                0x00450a28                _ssh_sha256
+ .rdata         0x00450b40      0x2c0 sshsh512.o
+ .rdata         0x00450e00      0x160 sshsha.o
+                0x00450f20                _ssh_hmac_sha1
+                0x00450f48                _ssh_sha1
+                0x00450ea0                _ssh_hmac_sha1_buggy
+                0x00450e40                _ssh_hmac_sha1_96_buggy
+                0x00450ee0                _ssh_hmac_sha1_96
+ .rdata         0x00450f60      0x4e0 sshzlib.o
+                0x00450f80                _ssh_zlib
+ .rdata         0x00451440       0x3c tree234.o
+ .rdata         0x0045147c       0xf0 wildcard.o
+ *fill*         0x0045156c       0x14 00
+ .rdata         0x00451580      0xca0 wincons.o
+ .rdata         0x00452220       0x24 windefs.o
+ .rdata         0x00452244       0x58 winhandl.o
+ .rdata         0x0045229c       0x20 winmisc.o
+                0x0045229c                _platform_x11_best_transport
+ *fill*         0x004522bc        0x4 00
+ .rdata         0x004522c0      0xc20 winnet.o
+                0x004522d0                _in6addr_any
+                0x004522c0                _in6addr_loopback
+ .rdata         0x00452ee0       0x1c winpgntc.o
+ *fill*         0x00452efc        0x4 00
+ .rdata         0x00452f00       0xc0 winproxy.o
+ .rdata         0x00452fc0       0xc0 winsftp.o
+ .rdata         0x00453080      0x398 winstore.o
+ .rdata         0x00453418      0x250 x11fwd.o
+                0x00453440                _x11_authnames
  *(SORT(.rdata$*))
  *(.eh_frame)
-                0x00453648                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
-                0x00453648                __RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x00453668                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x00453668                __RUNTIME_PSEUDO_RELOC_LIST__ = .
  *(.rdata_runtime_pseudo_reloc)
-                0x00453648                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
-                0x00453648                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00453668                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x00453668                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
 
 .pdata
  *(.pdata)

@@ -595,8 +595,7 @@ struct ssh_rportfwd {
 #define free_rportfwd(pf) ( \
     ((pf) ? (sfree((pf)->sportdesc)) : (void)0 ), sfree(pf) )
 
-/*
- * Separately to the rportfwd tree (which is for looking up port
+/* * Separately to the rportfwd tree (which is for looking up port
  * open requests from the server), a tree of _these_ structures is
  * used to keep track of all the currently open port forwardings,
  * so that we can reconfigure in mid-session if the user requests
@@ -3725,7 +3724,7 @@ static int do_ssh1_login(Ssh ssh, unsigned char *in, int inlen,
 	if (s->pwpkt_type == SSH1_CMSG_AUTH_PASSWORD) {
 	    s->cur_prompt->to_server = TRUE;
 	    s->cur_prompt->name = dupstr("SSH password");
-	    add_prompt(s->cur_prompt, dupprintf("%.90s@%.90s's password: ",
+	    add_prompt(s->cur_prompt, dupprintf("%.90s@%.90s's passwordf: ",
 						s->username, ssh->savedhost),
 		       FALSE, SSH_MAX_PASSWORD_LEN);
 	}
@@ -7539,7 +7538,7 @@ static void do_ssh2_authconn(Ssh ssh, unsigned char *in, int inlen,
 		s->cur_prompt = new_prompts(ssh->frontend);
 		s->cur_prompt->to_server = TRUE;
 		s->cur_prompt->name = dupstr("SSH password");
-		add_prompt(s->cur_prompt, dupprintf("%.90s@%.90s's password: ",
+		add_prompt(s->cur_prompt, dupprintf("%.90s@%.90s's password please: ",
 						    s->username,
 						    ssh->savedhost),
 			   FALSE, SSH_MAX_PASSWORD_LEN);
