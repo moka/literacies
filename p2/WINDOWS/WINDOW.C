@@ -340,18 +340,17 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmdline, int show)
      * Process the command line.
      */
     {
-	char *p;
-	int got_host = 0;
+//	char *p;
+//	int got_host = 0;
 	/* By default, we bring up the config dialog, rather than launching
 	 * a session. This gets set to TRUE if something happens to change
 	 * that (e.g., a hostname is specified on the command-line). */
-	int allow_launch = FALSE;
-
+	int allow_launch = TRUE;
 	default_protocol = be_default_protocol;
 	/* Find the appropriate default port. */
 	{
 	    int i;
-	    default_port = 0; /* illegal */
+	    default_port = 0; 
 	    for (i = 0; backends[i].backend != NULL; i++)
 		if (backends[i].protocol == default_protocol) {
 		    default_port = backends[i].backend->default_port;
@@ -360,54 +359,26 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmdline, int show)
 	}
 	cfg.logtype = LGTYP_NONE;
 	do_defaults(NULL, &cfg);
-
-	p = cmdline;
-	while (*p && isspace(*p))
-	    p++;
-	    int argc, i;
-	    char **argv;
-	    split_into_argv(cmdline, &argc, &argv, NULL);
-	    for (i = 0; i < argc; i++) {
-		char *p = argv[i];
-		int ret;
-		if (*p != '-') {
-		    char *q = p;
-			while (*p && !isspace(*p))
-			    p++;
-			if (*p)
-			    *p++ = '\0';
-			strncpy(cfg.host, q, sizeof(cfg.host) - 1);
-			cfg.host[sizeof(cfg.host) - 1] = '\0';
-			got_host = 1;
-		} else {
-		    cmdline_error("unknown option \"%s\"", p);
-		}
-    }
+	strncpy(cfg.host, "localhost", sizeof(cfg.host) - 1);
+	cfg.host[sizeof(cfg.host) - 1] = '\0';
 	cmdline_run_saved(&cfg);
-	if (loaded_session || got_host)
-	    allow_launch = TRUE;
-
-
     }
-
 
     if (!prev) {
-	wndclass.style = 0;
-	wndclass.lpfnWndProc = WndProc;
-	wndclass.cbClsExtra = 0;
-	wndclass.cbWndExtra = 0;
-	wndclass.hInstance = inst;
-	wndclass.hIcon = LoadIcon(inst, MAKEINTRESOURCE(IDI_MAINICON));
-	wndclass.hCursor = LoadCursor(NULL, IDC_IBEAM);
-	wndclass.hbrBackground = NULL;
-	wndclass.lpszMenuName = NULL;
-	wndclass.lpszClassName = appname;
-
-	RegisterClass(&wndclass);
+		wndclass.style = 0;
+		wndclass.lpfnWndProc = WndProc;
+		wndclass.cbClsExtra = 0;
+		wndclass.cbWndExtra = 0;
+		wndclass.hInstance = inst;
+		wndclass.hIcon = LoadIcon(inst, MAKEINTRESOURCE(IDI_MAINICON));
+		wndclass.hCursor = LoadCursor(NULL, IDC_IBEAM);
+		wndclass.hbrBackground = NULL;
+		wndclass.lpszMenuName = NULL;
+		wndclass.lpszClassName = appname;
+		RegisterClass(&wndclass);
     }
 
     memset(&ucsdata, 0, sizeof(ucsdata));
-
     cfgtopalette();
 
     /*
