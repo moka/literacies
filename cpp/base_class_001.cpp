@@ -24,8 +24,8 @@ void base_class::set_num(int i)
 
 void base_class::show()        
 {
-    cout << "charsF" << chars << endl;
-    cout << "numF" << num << endl;
+    cout << "chars=" << chars << endl;
+    cout << "num=" << num << endl;
 }
 
 int main()
