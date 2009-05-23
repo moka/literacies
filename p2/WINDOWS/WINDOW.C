@@ -372,85 +372,22 @@ int WINAPI WinMain(HINSTANCE inst, HINSTANCE prev, LPSTR cmdline, int show)
 		int ret;
 		if (*p != '-') {
 		    char *q = p;
-		    if (got_host) {
-		    } else {
-				/*
-				 * Otherwise, treat this argument as a host
-				 * name.
-				 */
-				while (*p && !isspace(*p))
-				    p++;
-				if (*p)
-				    *p++ = '\0';
-				strncpy(cfg.host, q, sizeof(cfg.host) - 1);
-				cfg.host[sizeof(cfg.host) - 1] = '\0';
-				got_host = 1;
-		    }
+			while (*p && !isspace(*p))
+			    p++;
+			if (*p)
+			    *p++ = '\0';
+			strncpy(cfg.host, q, sizeof(cfg.host) - 1);
+			cfg.host[sizeof(cfg.host) - 1] = '\0';
+			got_host = 1;
 		} else {
 		    cmdline_error("unknown option \"%s\"", p);
 		}
-	    }
-
+    }
 	cmdline_run_saved(&cfg);
-
 	if (loaded_session || got_host)
 	    allow_launch = TRUE;
 
-	if ((!allow_launch || !cfg_launchable(&cfg)) && !do_config()) {
-	    cleanup_exit(0);
-	}
 
-	/*
-	 * Trim leading whitespace off the hostname if it's there.
-	 */
-	{
-	    int space = strspn(cfg.host, " \t");
-	    memmove(cfg.host, cfg.host+space, 1+strlen(cfg.host)-space);
-	}
-
-	/* See if host is of the form user@host */
-	if (cfg.host[0] != '\0') {
-	    char *atsign = strrchr(cfg.host, '@');
-	    /* Make sure we're not overflowing the user field */
-	    if (atsign) {
-		if (atsign - cfg.host < sizeof cfg.username) {
-		    strncpy(cfg.username, cfg.host, atsign - cfg.host);
-		    cfg.username[atsign - cfg.host] = '\0';
-		}
-		memmove(cfg.host, atsign + 1, 1 + strlen(atsign + 1));
-	    }
-	}
-
-	/*
-	 * Trim a colon suffix off the hostname if it's there. In
-	 * order to protect IPv6 address literals against this
-	 * treatment, we do not do this if there's _more_ than one
-	 * colon.
-	 */
-	{
-	    char *c = strchr(cfg.host, ':');
-
-	    if (c) {
-		char *d = strchr(c+1, ':');
-		if (!d)
-		    *c = '\0';
-	    }
-	}
-
-	/*
-	 * Remove any remaining whitespace from the hostname.
-	 */
-	{
-	    int p1 = 0, p2 = 0;
-	    while (cfg.host[p2] != '\0') {
-		if (cfg.host[p2] != ' ' && cfg.host[p2] != '\t') {
-		    cfg.host[p1] = cfg.host[p2];
-		    p1++;
-		}
-		p2++;
-	    }
-	    cfg.host[p1] = '\0';
-	}
     }
 
 
