@@ -54,6 +54,7 @@ static void null_provide_ldisc(void *, void *);
 static void null_provide_logctx(void *, void *);
 static void null_unthrottle(void *, int);
 static int null_cfg_info(void *);
+static char command[5];
 
 Backend null_backend = {
     null_init, null_free, null_reconfig, null_send, null_sendbuffer, null_size,
@@ -88,8 +89,6 @@ static const char *loop_init(void *frontend_handle, void **backend_handle,
     st->term = frontend_handle;
     *backend_handle = st;
 
-	prompts_t* pr = new_prompts(frontend_handle);
-    add_prompt(pr, dupstr("login as: "), TRUE,30); 
     return NULL;
 }
 
@@ -115,8 +114,18 @@ static int null_send(void *handle, char *buf, int len) {
 
 static int loop_send(void *handle, char *buf, int len) {
     struct loop_state *st = handle;
+    if (!command)
+		strcpy(command,buf);
+	else	
+		strcat(command, buf); 
 
-    return from_backend(st->term, 0, buf, len);
+	if (*buf == '\015'){
+		int ret = from_backend(st->term, 0, command, strlen(command));
+		memset(command, 0, sizeof(command)); 
+		return ret; 
+	}else{
+	    return from_backend(st->term, 0, buf, len);
+	}
 }
 
 static int null_sendbuffer(void *handle) {

@@ -922,907 +922,907 @@ LOAD /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcr
                 0x0041f3a0                _term_nopaste
                 0x0041fee0                _term_paste
                 0x0041db30                _term_pwron
- .text          0x004249b0      0x1b0 testback.o
- .text          0x00424b60      0x2b0 timing.o
-                0x00424de0                _expire_timer_context
-                0x00424c40                _schedule_timer
-                0x00424d00                _run_timers
- .text          0x00424e10     0x1110 tree234.o
-                0x00425540                _add234
-                0x00425ed0                _del234
-                0x00425570                _addpos234
-                0x00424e10                _newtree234
-                0x00424e80                _freetree234
-                0x00424ee0                _count234
-                0x004257e0                _find234
-                0x00425640                _findrelpos234
-                0x004255a0                _index234
-                0x00425e80                _delpos234
-                0x00425810                _findrel234
-                0x00425840                _findpos234
- .text          0x00425f20        0x0 version.o
- .text          0x00425f20      0x270 wcwidth.o
-                0x004260f0                _mk_wcwidth_cjk
-                0x00426130                _mk_wcswidth_cjk
-                0x00426090                _mk_wcswidth
-                0x00425fa0                _mk_wcwidth
- .text          0x00426190      0xfb0 wincfg.o
-                0x004261d0                _win_setup_config_box
- .text          0x00427140     0x56b0 winctrls.o
-                0x0042b020                _dlg_listbox_index
-                0x0042a940                _winctrl_context_help
-                0x0042c6b0                _dlg_set_privdata
-                0x004279c0                _checkbox
-                0x00428a70                _prefslist
-                0x00427140                _ctlposinit
-                0x004287b0                _ersatztab
-                0x00427a40                _staticwrap
-                0x00427cb0                _statictext
-                0x00427590                _combobox
-                0x00429360                _progressbar
-                0x0042aeb0                _dlg_listbox_addwithid
-                0x004286b0                _listbox
-                0x0042c5d0                _dp_cleanup
-                0x0042b460                _dlg_fontsel_set
-                0x0042b120                _dlg_listbox_issel
-                0x0042ae10                _dlg_listbox_add
-                0x00429630                _winctrl_add
-                0x0042b380                _dlg_filesel_set
-                0x0042c3c0                _dlg_refresh
-                0x004285c0                _bigeditctrl
-                0x00427400                _endbox
-                0x004273a0                _beginbox
-                0x0042c590                _dp_add_tree
-                0x0042abf0                _dlg_editbox_set
-                0x0042b560                _winctrl_handle_command
-                0x0042acd0                _dlg_listbox_clear
-                0x00429500                _winctrl_rem_shortcuts
-                0x00428260                _staticpassedit
-                0x00427db0                _staticbtn
-                0x0042b290                _dlg_label_change
-                0x0042ab20                _dlg_checkbox_set
-                0x004297a0                _winctrl_findbyid
-                0x00427320                _bartitle
-                0x00427850                _radioline
-                0x004296a0                _winctrl_remove
-                0x00429770                _winctrl_findbyctrl
-                0x004297f0                _winctrl_layout
-                0x00427200                _doctl
-                0x00428e60                _pl_itemfrompt
-                0x0042ac50                _dlg_editbox_get
-                0x0042c4b0                _dlg_coloursel_results
-                0x004284c0                _staticddlbig
-                0x0042aa00                _dlg_radiobutton_set
-                0x00429600                _winctrl_init
-                0x0042c3a0                _dlg_end
-                0x0042ad70                _dlg_listbox_del
-                0x004297d0                _winctrl_findbyindex
-                0x0042c160                _dlg_fontsel_get
-                0x00429700                _winctrl_cleanup
-                0x00427d30                _paneltitle
-                0x004278e0                _bareradioline
-                0x0042a920                _dlg_last_focused
-                0x00427eb0                _button
-                0x0042c1c0                _dlg_update_start
-                0x0042c480                _dlg_coloursel_start
-                0x004282a0                _staticddl
-                0x00428fb0                _handle_prefslist
-                0x0042c350                _dlg_beep
-                0x0042c730                _dlg_alloc_privdata
-                0x0042b1a0                _dlg_listbox_select
-                0x00428220                _staticedit
-                0x00427490                _editboxfw
-                0x0042c220                _dlg_update_done
-                0x0042ab90                _dlg_checkbox_get
-                0x00428910                _editbutton
-                0x0042c670                _dlg_get_privdata
-                0x0042afa0                _dlg_listbox_getid
-                0x0042b230                _dlg_text_set
-                0x00429490                _winctrl_add_shortcuts
-                0x004283b0                _staticcombo
-                0x0042b3e0                _dlg_filesel_get
-                0x0042c370                _dlg_error_msg
-                0x0042c510                _dp_init
-                0x00427950                _radiobig
-                0x0042c2a0                _dlg_set_focus
-                0x0042aa80                _dlg_radiobutton_get
-                0x00427f80                _static2btn
- .text          0x0042c7f0      0x160 windefs.o
-                0x0042c940                _platform_default_i
-                0x0042c8f0                _platform_default_s
-                0x0042c870                _platform_default_filename
-                0x0042c7f0                _platform_default_fontspec
- .text          0x0042c950     0x1ba0 windlg.o
-                0x0042db50                _show_help
-                0x0042ded0                _logevent
-                0x0042e0c0                _showeventlog
-                0x0042e180                _verify_ssh_host_key
-                0x0042c950                _force_normal
-                0x0042dae0                _modal_about_box
-                0x0042db70                _defuse_showwindow
-                0x0042e470                _old_keyfile_warning
-                0x0042e140                _showabout
-                0x0042e340                _askalg
-                0x0042e3d0                _askappend
-                0x0042dd20                _do_reconfig
-                0x0042dbe0                _do_config
- .text          0x0042e4f0     0x9d80 window.o
-                0x0042f980                _timer_change_notify
-                0x0042ea70                _connection_fatal
-                0x00432b90                _refresh_window
-                0x0042fa40                _get_ctx
-                0x00438160                _from_backend
-                0x004314b0                _palette_set
-                0x004324b0                _get_clip
-                0x0042fc10                _do_text_internal
-                0x00433620                _WinMain@16
-                0x00430fe0                _set_icon
-                0x004326f0                _modalfatalbox
-                0x00431890                _write_clip
-                0x0042f8e0                _notify_remote_exit
-                0x0042e4f0                _ldisc_update
-                0x00438210                _agent_schedule_callback
-                0x00432bc0                _set_zoomed
-                0x00438180                _from_backend_untrusted
-                0x004381a0                _get_userpass_input
-                0x00431750                _write_aclip
-                0x00432ac0                _move_window
-                0x00432c20                _is_iconic
-                0x0042eb10                _cmdline_error
-                0x00430a20                _do_text
-                0x0042fa90                _free_ctx
-                0x00430ae0                _do_cursor
-                0x00432c40                _get_window_pos
-                0x0042e680                _do_select
-                0x0042ea40                _set_raw_mouse_mode
-                0x00438150                _frontend_keypress
-                0x00432670                _fatalbox
-                0x0042e6f0                _update_specials_menu
-                0x00430db0                _char_width
-                0x00432c70                _get_window_pixels
-                0x0042ea20                _set_busy_status
-                0x00432a60                _set_iconic
-                0x0042e610                _cleanup_exit
-                0x00431610                _palette_reset
-                0x0042e500                _get_ttymode
-                0x00432cb0                _get_window_title
-                0x004328f0                _do_beep
-                0x00431060                _set_title
-                0x0042fba0                _sys_cursor
-                0x00433430                _request_resize
-                0x00430fc0                _request_paste
-                0x00431420                _set_sbar
-                0x00432b30                _set_zorder
- .text          0x00438270      0xa30 winhandl.o
-                0x00438950                _handle_get_events
-                0x004388e0                _handle_write
-                0x004386b0                _handle_input_new
-                0x00438ac0                _handle_got_event
-                0x004387c0                _handle_output_new
-                0x00438c90                _handle_get_privdata
-                0x00438a40                _handle_free
-                0x00438c50                _handle_backlog
-                0x00438c10                _handle_unthrottle
- .text          0x00438ca0      0x270 winhelp.o
-                0x00438dd0                _has_help
-                0x00438ec0                _quit_help
-                0x00438dc0                _shutdown_help
-                0x00438ca0                _init_help
-                0x00438de0                _launch_help
- .text          0x00438f10      0x250 winmisc.o
-                0x00438f10                _platform_get_x11_auth
-                0x00438f40                _filename_from_str
-                0x00438f20                _platform_get_x_display
-                0x00438fa0                _filename_to_str
-                0x00438fe0                _filename_is_null
-                0x00438fb0                _filename_equal
-                0x00439050                _init_winver
-                0x00439090                _dputs
-                0x00438ff0                _get_username
- .text          0x00439160     0x2660 winnet.o
-                0x0043b590                _sk_addr_error
-                0x0043a980                _sk_newlistener
-                0x0043a3a0                _sk_register
-                0x00439a10                _winsock_error_string
-                0x0043a320                _sk_addr_free
-                0x0043b6c0                _next_socket
-                0x00439970                _sk_cleanup
-                0x004391a0                _sk_startup
-                0x00439ed0                _sk_nextaddr
-                0x0043b6f0                _socket_writable
-                0x004391f0                _sk_init
-                0x00439b30                _sk_namelookup
-                0x0043b680                _first_socket
-                0x0043b620                _socket_reselect_all
-                0x00439f20                _sk_getaddr
-                0x0043ada0                _try_send
-                0x0043b730                _net_service_lookup
-                0x0043a150                _sk_address_is_local
-                0x0043a8a0                _sk_new
-                0x00439e50                _sk_nonamelookup
-                0x0043a240                _sk_addrcopy
-                0x0043b040                _select_result
-                0x0043b500                _net_pending_errors
-                0x0043a010                _sk_hostname_is_local
-                0x0043a220                _sk_addrtype
-                0x0043b770                _platform_get_x11_unix_address
- .text          0x0043b7c0      0x380 winprint.o
-                0x0043b980                _printer_finish_enum
-                0x0043b940                _printer_get_name
-                0x0043b7c0                _printer_start_enum
-                0x0043baf0                _printer_finish_job
-                0x0043b9d0                _printer_start_job
-                0x0043bab0                _printer_job_data
- .text          0x0043bb40      0x450 winproxy.o
-                0x0043bcf0                _platform_new_connection
-                0x0043bb40                _localproxy_gotdata
-                0x0043bbd0                _localproxy_sentdata
- .text          0x0043bf90      0x840 winser.o
- .text          0x0043c7d0     0x13b0 winstore.o
-                0x0043cde0                _read_setting_filename
-                0x0043c9e0                _write_setting_i
-                0x0043ca20                _close_settings_w
-                0x0043d8c0                _read_random_seed
-                0x0043c980                _write_setting_s
-                0x0043d110                _verify_host_key
-                0x0043cd10                _write_setting_fontspec
-                0x0043ca40                _open_settings_r
-                0x0043cb10                _read_setting_s
-                0x0043d940                _write_random_seed
-                0x0043cf60                _enum_settings_next
-                0x0043ce20                _write_setting_filename
-                0x0043cbd0                _read_setting_fontspec
-                0x0043cb70                _read_setting_i
-                0x0043c870                _open_settings_w
-                0x0043d410                _store_host_key
-                0x0043cf00                _enum_settings_start
-                0x0043ce50                _close_settings_r
-                0x0043da20                _cleanup_all
-                0x0043ce70                _del_settings
-                0x0043d060                _enum_settings_finish
- .text          0x0043db80       0x90 wintime.o
-                0x0043db80                _ltime
- .text          0x0043dc10     0x1090 winucs.o
-                0x0043e5e0                _init_ucs
-                0x0043dc70                _xlat_uskbd2cyrllic
-                0x0043e2b0                _cp_enumerate
-                0x0043dd90                _decode_codepage
-                0x0043e430                _mb_to_wc
-                0x0043e2d0                _wc_to_mb
-                0x0043dc90                _check_compose_internal
-                0x0043e470                _get_unitab
-                0x0043dd70                _check_compose
-                0x0043ec80                _is_dbcs_leadbyte
-                0x0043e160                _cp_name
- .text          0x0043eca0      0x580 winutils.o
-                0x0043eee0                _split_into_argv
-                0x0043eca0                _request_file
-                0x0043ee30                _message_box
-                0x0043edb0                _filereq_free
-                0x0043ed90                _filereq_new
-                0x0043eeb0                _pgp_fingerprints
- .text          0x0043f220        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00245.o)
-                0x0043f220                _GetUserNameA@8
- .text          0x0043f228        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00389.o)
-                0x0043f228                _RegCreateKeyA@12
- .text          0x0043f230        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00386.o)
-                0x0043f230                _RegCloseKey@4
- .text          0x0043f238        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00434.o)
-                0x0043f238                _RegSetValueExA@24
- .text          0x0043f240        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00412.o)
-                0x0043f240                _RegOpenKeyA@12
- .text          0x0043f248        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00423.o)
-                0x0043f248                _RegQueryValueExA@24
- .text          0x0043f250        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00393.o)
-                0x0043f250                _RegDeleteKeyA@8
- .text          0x0043f258        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00400.o)
-                0x0043f258                _RegEnumKeyA@16
- .text          0x0043f260        0x0 /usr/lib/w32api/libadvapi32.a(dykgh.o)
- .text          0x0043f260        0x0 /usr/lib/w32api/libadvapi32.a(dykgt.o)
- .text          0x0043f260        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00094.o)
-                0x0043f260                _MakeDragList@4
- .text          0x0043f268        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00093.o)
-                0x0043f268                _LBItemFromPt@16
- .text          0x0043f270        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00041.o)
-                0x0043f270                _DrawInsert@12
- .text          0x0043f278        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00091.o)
-                0x0043f278                _InitCommonControls@0
- .text          0x0043f280        0x0 /usr/lib/w32api/libcomctl32.a(dkzhh.o)
- .text          0x0043f280        0x0 /usr/lib/w32api/libcomctl32.a(dkzht.o)
- .text          0x0043f280        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00002.o)
-                0x0043f280                _ChooseFontA@4
- .text          0x0043f288        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00000.o)
-                0x0043f288                _ChooseColorA@4
- .text          0x0043f290        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00011.o)
-                0x0043f290                _GetSaveFileNameA@4
- .text          0x0043f298        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00009.o)
-                0x0043f298                _GetOpenFileNameA@4
- .text          0x0043f2a0        0x0 /usr/lib/w32api/libcomdlg32.a(dmych.o)
- .text          0x0043f2a0        0x0 /usr/lib/w32api/libcomdlg32.a(dmyct.o)
- .text          0x0043f2a0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00034.o)
-                0x0043f2a0                _CreateCompatibleDC@4
- .text          0x0043f2a8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00279.o)
-                0x0043f2a8                _SelectObject@8
- .text          0x0043f2b0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00211.o)
-                0x0043f2b0                _GetTextExtentPoint32A@16
- .text          0x0043f2b8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00070.o)
-                0x0043f2b8                _DeleteDC@4
- .text          0x0043f2c0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00199.o)
-                0x0043f2c0                _GetStockObject@4
- .text          0x0043f2c8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00067.o)
-                0x0043f2c8                _CreateSolidBrush@4
- .text          0x0043f2d0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00261.o)
-                0x0043f2d0                _Rectangle@20
- .text          0x0043f2d8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00321.o)
-                0x0043f2d8                _SetTextColor@8
- .text          0x0043f2e0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00285.o)
-                0x0043f2e0                _SetBkColor@8
- .text          0x0043f2e8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00337.o)
-                0x0043f2e8                _TextOutA@20
- .text          0x0043f2f0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00073.o)
-                0x0043f2f0                _DeleteObject@4
- .text          0x0043f2f8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00047.o)
-                0x0043f2f8                _CreateFontIndirectA@4
- .text          0x0043f300        0x8 /usr/lib/w32api/libgdi32.a(dyohs00146.o)
-                0x0043f300                _GetDeviceCaps@8
- .text          0x0043f308        0x8 /usr/lib/w32api/libgdi32.a(dyohs00304.o)
-                0x0043f308                _SetMapMode@8
- .text          0x0043f310        0x8 /usr/lib/w32api/libgdi32.a(dyohs00208.o)
-                0x0043f310                _GetTextExtentExPointA@28
- .text          0x0043f318        0x8 /usr/lib/w32api/libgdi32.a(dyohs00056.o)
-                0x0043f318                _CreatePalette@4
- .text          0x0043f320        0x8 /usr/lib/w32api/libgdi32.a(dyohs00280.o)
-                0x0043f320                _SelectPalette@12
- .text          0x0043f328        0x8 /usr/lib/w32api/libgdi32.a(dyohs00258.o)
-                0x0043f328                _RealizePalette@4
- .text          0x0043f330        0x8 /usr/lib/w32api/libgdi32.a(dyohs00046.o)
-                0x0043f330                _CreateFontA@56
- .text          0x0043f338        0x8 /usr/lib/w32api/libgdi32.a(dyohs00217.o)
-                0x0043f338                _GetTextMetricsA@8
- .text          0x0043f340        0x8 /usr/lib/w32api/libgdi32.a(dyohs00183.o)
-                0x0043f340                _GetObjectA@12
- .text          0x0043f348        0x8 /usr/lib/w32api/libgdi32.a(dyohs00339.o)
-                0x0043f348                _TranslateCharsetInfo@12
- .text          0x0043f350        0x8 /usr/lib/w32api/libgdi32.a(dyohs00033.o)
-                0x0043f350                _CreateCompatibleBitmap@12
- .text          0x0043f358        0x8 /usr/lib/w32api/libgdi32.a(dyohs00319.o)
-                0x0043f358                _SetTextAlign@8
- .text          0x0043f360        0x8 /usr/lib/w32api/libgdi32.a(dyohs00286.o)
-                0x0043f360                _SetBkMode@8
- .text          0x0043f368        0x8 /usr/lib/w32api/libgdi32.a(dyohs00102.o)
-                0x0043f368                _ExtTextOutA@32
- .text          0x0043f370        0x8 /usr/lib/w32api/libgdi32.a(dyohs00190.o)
-                0x0043f370                _GetPixel@12
- .text          0x0043f378        0x8 /usr/lib/w32api/libgdi32.a(dyohs00058.o)
-                0x0043f378                _CreatePen@12
- .text          0x0043f380        0x8 /usr/lib/w32api/libgdi32.a(dyohs00232.o)
-                0x0043f380                _MoveToEx@16
- .text          0x0043f388        0x8 /usr/lib/w32api/libgdi32.a(dyohs00229.o)
-                0x0043f388                _LineTo@12
- .text          0x0043f390        0x8 /usr/lib/w32api/libgdi32.a(dyohs00103.o)
-                0x0043f390                _ExtTextOutW@32
- .text          0x0043f398        0x8 /usr/lib/w32api/libgdi32.a(dyohs00136.o)
-                0x0043f398                _GetCharacterPlacementW@24
- .text          0x0043f3a0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00254.o)
-                0x0043f3a0                _Polyline@12
- .text          0x0043f3a8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00310.o)
-                0x0043f3a8                _SetPixel@16
- .text          0x0043f3b0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00130.o)
-                0x0043f3b0                _GetCharWidth32W@16
- .text          0x0043f3b8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00134.o)
-                0x0043f3b8                _GetCharWidthW@16
- .text          0x0043f3c0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00129.o)
-                0x0043f3c0                _GetCharWidth32A@16
- .text          0x0043f3c8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00131.o)
-                0x0043f3c8                _GetCharWidthA@16
- .text          0x0043f3d0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00309.o)
-                0x0043f3d0                _SetPaletteEntries@16
- .text          0x0043f3d8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00340.o)
-                0x0043f3d8                _UnrealizeObject@4
- .text          0x0043f3e0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00028.o)
-                0x0043f3e0                _CreateBitmap@20
- .text          0x0043f3e8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00225.o)
-                0x0043f3e8                _IntersectClipRect@20
- .text          0x0043f3f0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00096.o)
-                0x0043f3f0                _ExcludeClipRect@20
- .text          0x0043f3f8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00341.o)
-                0x0043f3f8                _UpdateColors@4
- .text          0x0043f400        0x0 /usr/lib/w32api/libgdi32.a(dyohh.o)
- .text          0x0043f400        0x0 /usr/lib/w32api/libgdi32.a(dyoht.o)
- .text          0x0043f400        0x8 /usr/lib/w32api/libimm32.a(dasfs00025.o)
-                0x0043f400                _ImmGetContext@4
- .text          0x0043f408        0x8 /usr/lib/w32api/libimm32.a(dasfs00065.o)
-                0x0043f408                _ImmSetCompositionWindow@8
- .text          0x0043f410        0x8 /usr/lib/w32api/libimm32.a(dasfs00059.o)
-                0x0043f410                _ImmReleaseContext@8
- .text          0x0043f418        0x8 /usr/lib/w32api/libimm32.a(dasfs00061.o)
-                0x0043f418                _ImmSetCompositionFontA@8
- .text          0x0043f420        0x8 /usr/lib/w32api/libimm32.a(dasfs00023.o)
-                0x0043f420                _ImmGetCompositionStringW@16
- .text          0x0043f428        0x0 /usr/lib/w32api/libimm32.a(dasfh.o)
- .text          0x0043f428        0x0 /usr/lib/w32api/libimm32.a(dasft.o)
- .text          0x0043f428        0x8 /usr/lib/w32api/libshell32.a(dsdfs00143.o)
-                0x0043f428                _ShellExecuteA@24
- .text          0x0043f430        0x0 /usr/lib/w32api/libshell32.a(dsdfh.o)
- .text          0x0043f430        0x0 /usr/lib/w32api/libshell32.a(dsdft.o)
- .text          0x0043f430        0x8 /usr/lib/w32api/libuser32.a(dwxfs00133.o)
-                0x0043f430                _DefWindowProcA@16
- .text          0x0043f438        0x8 /usr/lib/w32api/libuser32.a(dwxfs00568.o)
-                0x0043f438                _SetWindowPos@28
- .text          0x0043f440        0x8 /usr/lib/w32api/libuser32.a(dwxfs00368.o)
-                0x0043f440                _InvalidateRect@12
- .text          0x0043f448        0x8 /usr/lib/w32api/libuser32.a(dwxfs00011.o)
-                0x0043f448                _BeginPaint@8
- .text          0x0043f450        0x8 /usr/lib/w32api/libuser32.a(dwxfs00235.o)
-                0x0043f450                _GetClientRect@8
- .text          0x0043f458        0x8 /usr/lib/w32api/libuser32.a(dwxfs00349.o)
-                0x0043f458                _GetWindowTextLengthA@4
- .text          0x0043f460        0x8 /usr/lib/w32api/libuser32.a(dwxfs00348.o)
-                0x0043f460                _GetWindowTextA@12
- .text          0x0043f468        0x8 /usr/lib/w32api/libuser32.a(dwxfs00183.o)
-                0x0043f468                _EndPaint@8
- .text          0x0043f470        0x8 /usr/lib/w32api/libuser32.a(dwxfs00346.o)
-                0x0043f470                _GetWindowRect@8
- .text          0x0043f478        0x8 /usr/lib/w32api/libuser32.a(dwxfs00089.o)
-                0x0043f478                _CreateWindowExA@48
- .text          0x0043f480        0x8 /usr/lib/w32api/libuser32.a(dwxfs00581.o)
-                0x0043f480                _ShowWindow@8
- .text          0x0043f488        0x8 /usr/lib/w32api/libuser32.a(dwxfs00322.o)
-                0x0043f488                _GetSysColor@4
- .text          0x0043f490        0x8 /usr/lib/w32api/libuser32.a(dwxfs00587.o)
-                0x0043f490                _SystemParametersInfoA@16
- .text          0x0043f498        0x8 /usr/lib/w32api/libuser32.a(dwxfs00570.o)
-                0x0043f498                _SetWindowTextA@8
- .text          0x0043f4a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00476.o)
-                0x0043f4a0                _RegisterClassA@4
- .text          0x0043f4a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00143.o)
-                0x0043f4a8                _DestroyWindow@4
- .text          0x0043f4b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00224.o)
-                0x0043f4b0                _GetCaretBlinkTime@0
- .text          0x0043f4b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00504.o)
-                0x0043f4b8                _SendMessageA@16
- .text          0x0043f4c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00423.o)
-                0x0043f4c0                _MapDialogRect@8
- .text          0x0043f4c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00247.o)
-                0x0043f4c8                _GetDC@4
- .text          0x0043f4d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00490.o)
-                0x0043f4d0                _ReleaseDC@8
- .text          0x0043f4d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00501.o)
-                0x0043f4d8                _SendDlgItemMessageA@20
- .text          0x0043f4e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00565.o)
-                0x0043f4e0                _SetWindowLongA@12
- .text          0x0043f4e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00430.o)
-                0x0043f4e8                _MessageBeep@4
- .text          0x0043f4f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00056.o)
-                0x0043f4f0                _CheckRadioButton@16
- .text          0x0043f4f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00384.o)
-                0x0043f4f8                _IsDlgButtonChecked@8
- .text          0x0043f500        0x8 /usr/lib/w32api/libuser32.a(dwxfs00053.o)
-                0x0043f500                _CheckDlgButton@12
- .text          0x0043f508        0x8 /usr/lib/w32api/libuser32.a(dwxfs00526.o)
-                0x0043f508                _SetDlgItemTextA@12
- .text          0x0043f510        0x8 /usr/lib/w32api/libuser32.a(dwxfs00254.o)
-                0x0043f510                _GetDlgItemTextA@16
- .text          0x0043f518        0x8 /usr/lib/w32api/libuser32.a(dwxfs00487.o)
-                0x0043f518                _RegisterWindowMessageA@4
- .text          0x0043f520        0x8 /usr/lib/w32api/libuser32.a(dwxfs00162.o)
-                0x0043f520                _DrawEdge@16
- .text          0x0043f528        0x8 /usr/lib/w32api/libuser32.a(dwxfs00513.o)
-                0x0043f528                _SetCapture@4
- .text          0x0043f530        0x8 /usr/lib/w32api/libuser32.a(dwxfs00252.o)
-                0x0043f530                _GetDlgItem@8
- .text          0x0043f538        0x8 /usr/lib/w32api/libuser32.a(dwxfs00529.o)
-                0x0043f538                _SetFocus@4
- .text          0x0043f540        0x8 /usr/lib/w32api/libuser32.a(dwxfs00431.o)
-                0x0043f540                _MessageBoxA@16
- .text          0x0043f548        0x8 /usr/lib/w32api/libuser32.a(dwxfs00345.o)
-                0x0043f548                _GetWindowPlacement@8
- .text          0x0043f550        0x8 /usr/lib/w32api/libuser32.a(dwxfs00567.o)
-                0x0043f550                _SetWindowPlacement@8
- .text          0x0043f558        0x8 /usr/lib/w32api/libuser32.a(dwxfs00303.o)
-                0x0043f558                _GetParent@4
- .text          0x0043f560        0x8 /usr/lib/w32api/libuser32.a(dwxfs00512.o)
-                0x0043f560                _SetActiveWindow@4
- .text          0x0043f568        0x8 /usr/lib/w32api/libuser32.a(dwxfs00181.o)
-                0x0043f568                _EndDialog@8
- .text          0x0043f570        0x8 /usr/lib/w32api/libuser32.a(dwxfs00179.o)
-                0x0043f570                _EnableWindow@8
- .text          0x0043f578        0x8 /usr/lib/w32api/libuser32.a(dwxfs00146.o)
-                0x0043f578                _DialogBoxParamA@20
- .text          0x0043f580        0x8 /usr/lib/w32api/libuser32.a(dwxfs00126.o)
-                0x0043f580                _DefDlgProcA@16
- .text          0x0043f588        0x8 /usr/lib/w32api/libuser32.a(dwxfs00402.o)
-                0x0043f588                _LoadCursorA@8
- .text          0x0043f590        0x8 /usr/lib/w32api/libuser32.a(dwxfs00079.o)
-                0x0043f590                _CreateDialogParamA@20
- .text          0x0043f598        0x8 /usr/lib/w32api/libuser32.a(dwxfs00292.o)
-                0x0043f598                _GetMessageA@16
- .text          0x0043f5a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00340.o)
-                0x0043f5a0                _GetWindowLongA@8
- .text          0x0043f5a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00382.o)
-                0x0043f5a8                _IsDialogMessageA@8
- .text          0x0043f5b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00148.o)
-                0x0043f5b0                _DispatchMessageA@4
- .text          0x0043f5b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00465.o)
-                0x0043f5b8                _PostQuitMessage@4
- .text          0x0043f5c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00489.o)
-                0x0043f5c0                _ReleaseCapture@0
- .text          0x0043f5c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00223.o)
-                0x0043f5c8                _GetCapture@0
- .text          0x0043f5d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00406.o)
-                0x0043f5d0                _LoadIconA@8
- .text          0x0043f5d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00249.o)
-                0x0043f5d8                _GetDesktopWindow@0
- .text          0x0043f5e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00442.o)
-                0x0043f5e0                _MoveWindow@24
- .text          0x0043f5e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00136.o)
-                0x0043f5e8                _DeleteMenu@12
- .text          0x0043f5f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00006.o)
-                0x0043f5f0                _AppendMenuA@16
- .text          0x0043f5f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00362.o)
-                0x0043f5f8                _InsertMenuA@20
- .text          0x0043f600        0x8 /usr/lib/w32api/libuser32.a(dwxfs00088.o)
-                0x0043f600                _CreatePopupMenu@0
- .text          0x0043f608        0x8 /usr/lib/w32api/libuser32.a(dwxfs00516.o)
-                0x0043f608                _SetClassLongA@12
- .text          0x0043f610        0x8 /usr/lib/w32api/libuser32.a(dwxfs00521.o)
-                0x0043f610                _SetCursor@4
- .text          0x0043f618        0x8 /usr/lib/w32api/libuser32.a(dwxfs00578.o)
-                0x0043f618                _ShowCursor@4
- .text          0x0043f620        0x8 /usr/lib/w32api/libuser32.a(dwxfs00272.o)
-                0x0043f620                _GetKeyboardState@4
- .text          0x0043f628        0x8 /usr/lib/w32api/libuser32.a(dwxfs00397.o)
-                0x0043f628                _KillTimer@8
- .text          0x0043f630        0x8 /usr/lib/w32api/libuser32.a(dwxfs00559.o)
-                0x0043f630                _SetTimer@16
- .text          0x0043f638        0x8 /usr/lib/w32api/libuser32.a(dwxfs00395.o)
-                0x0043f638                _IsZoomed@4
- .text          0x0043f640        0x8 /usr/lib/w32api/libuser32.a(dwxfs00515.o)
-                0x0043f640                _SetCaretPos@8
- .text          0x0043f648        0x8 /usr/lib/w32api/libuser32.a(dwxfs00387.o)
-                0x0043f648                _IsIconic@4
- .text          0x0043f650        0x8 /usr/lib/w32api/libuser32.a(dwxfs00550.o)
-                0x0043f650                _SetScrollInfo@16
- .text          0x0043f658        0x8 /usr/lib/w32api/libuser32.a(dwxfs00452.o)
-                0x0043f658                _OpenClipboard@4
- .text          0x0043f660        0x8 /usr/lib/w32api/libuser32.a(dwxfs00176.o)
-                0x0043f660                _EmptyClipboard@0
- .text          0x0043f668        0x8 /usr/lib/w32api/libuser32.a(dwxfs00519.o)
-                0x0043f668                _SetClipboardData@8
- .text          0x0043f670        0x8 /usr/lib/w32api/libuser32.a(dwxfs00061.o)
-                0x0043f670                _CloseClipboard@0
- .text          0x0043f678        0x8 /usr/lib/w32api/libuser32.a(dwxfs00480.o)
-                0x0043f678                _RegisterClipboardFormatA@4
- .text          0x0043f680        0x8 /usr/lib/w32api/libuser32.a(dwxfs00237.o)
-                0x0043f680                _GetClipboardData@4
- .text          0x0043f688        0x8 /usr/lib/w32api/libuser32.a(dwxfs00213.o)
-                0x0043f688                _FlashWindow@8
- .text          0x0043f690        0x8 /usr/lib/w32api/libuser32.a(dwxfs00073.o)
-                0x0043f690                _CreateCaret@16
- .text          0x0043f698        0x8 /usr/lib/w32api/libuser32.a(dwxfs00256.o)
-                0x0043f698                _GetDoubleClickTime@0
- .text          0x0043f6a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00324.o)
-                0x0043f6a0                _GetSystemMenu@8
- .text          0x0043f6a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00087.o)
-                0x0043f6a8                _CreateMenu@0
- .text          0x0043f6b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00268.o)
-                0x0043f6b0                _GetKeyboardLayout@4
- .text          0x0043f6b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00530.o)
-                0x0043f6b8                _SetForegroundWindow@4
- .text          0x0043f6c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00258.o)
-                0x0043f6c0                _GetForegroundWindow@0
- .text          0x0043f6c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00617.o)
-                0x0043f6c8                _UpdateWindow@4
- .text          0x0043f6d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00443.o)
-                0x0043f6d0                _MsgWaitForMultipleObjects@20
- .text          0x0043f6d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00461.o)
-                0x0043f6d8                _PeekMessageA@20
- .text          0x0043f6e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00391.o)
-                0x0043f6e0                _IsWindow@4
- .text          0x0043f6e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00054.o)
-                0x0043f6e8                _CheckMenuItem@12
- .text          0x0043f6f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00139.o)
-                0x0043f6f0                _DestroyCaret@0
- .text          0x0043f6f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00177.o)
-                0x0043f6f8                _EnableMenuItem@12
- .text          0x0043f700        0x8 /usr/lib/w32api/libuser32.a(dwxfs00604.o)
-                0x0043f700                _TranslateMessage@4
- .text          0x0043f708        0x8 /usr/lib/w32api/libuser32.a(dwxfs00246.o)
-                0x0043f708                _GetCursorPos@4
- .text          0x0043f710        0x8 /usr/lib/w32api/libuser32.a(dwxfs00295.o)
-                0x0043f710                _GetMessageTime@0
- .text          0x0043f718        0x8 /usr/lib/w32api/libuser32.a(dwxfs00598.o)
-                0x0043f718                _TrackPopupMenu@28
- .text          0x0043f720        0x8 /usr/lib/w32api/libuser32.a(dwxfs00463.o)
-                0x0043f720                _PostMessageA@16
- .text          0x0043f728        0x8 /usr/lib/w32api/libuser32.a(dwxfs00577.o)
-                0x0043f728                _ShowCaret@4
- .text          0x0043f730        0x8 /usr/lib/w32api/libuser32.a(dwxfs00531.o)
-                0x0043f730                _SetKeyboardState@4
- .text          0x0043f738        0x8 /usr/lib/w32api/libuser32.a(dwxfs00594.o)
-                0x0043f738                _ToAsciiEx@24
- .text          0x0043f740        0x8 /usr/lib/w32api/libuser32.a(dwxfs00356.o)
-                0x0043f740                _HideCaret@4
- .text          0x0043f748        0x8 /usr/lib/w32api/libuser32.a(dwxfs00627.o)
-                0x0043f748                _WinHelpA@16
- .text          0x0043f750        0x8 /usr/lib/w32api/libuser32.a(dwxfs00434.o)
-                0x0043f750                _MessageBoxIndirectA@4
- .text          0x0043f758        0x0 /usr/lib/w32api/libuser32.a(dwxfh.o)
- .text          0x0043f758        0x0 /usr/lib/w32api/libuser32.a(dwxft.o)
- .text          0x0043f758        0x8 /usr/lib/w32api/libwinmm.a(dumfs00008.o)
-                0x0043f758                _PlaySoundA@12
- .text          0x0043f760        0x0 /usr/lib/w32api/libwinmm.a(dumfh.o)
- .text          0x0043f760        0x0 /usr/lib/w32api/libwinmm.a(dumft.o)
- .text          0x0043f760        0x8 /usr/lib/w32api/libwinspool.a(dwbds00078.o)
-                0x0043f760                _EnumPrintersA@28
- .text          0x0043f768        0x8 /usr/lib/w32api/libwinspool.a(dwbds00102.o)
-                0x0043f768                _OpenPrinterA@12
- .text          0x0043f770        0x8 /usr/lib/w32api/libwinspool.a(dwbds00126.o)
-                0x0043f770                _StartDocPrinterA@12
- .text          0x0043f778        0x8 /usr/lib/w32api/libwinspool.a(dwbds00128.o)
-                0x0043f778                _StartPagePrinter@4
- .text          0x0043f780        0x8 /usr/lib/w32api/libwinspool.a(dwbds00025.o)
-                0x0043f780                _ClosePrinter@4
- .text          0x0043f788        0x8 /usr/lib/w32api/libwinspool.a(dwbds00059.o)
-                0x0043f788                _EndDocPrinter@4
- .text          0x0043f790        0x8 /usr/lib/w32api/libwinspool.a(dwbds00130.o)
-                0x0043f790                _WritePrinter@16
- .text          0x0043f798        0x8 /usr/lib/w32api/libwinspool.a(dwbds00060.o)
-                0x0043f798                _EndPagePrinter@4
- .text          0x0043f7a0        0x0 /usr/lib/w32api/libwinspool.a(dwbdh.o)
- .text          0x0043f7a0        0x0 /usr/lib/w32api/libwinspool.a(dwbdt.o)
- .text          0x0043f7a0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTglob.o)
- .text          0x0043f7a0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTfmode.o)
- .text          0x0043f7a0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(txtmode.o)
- .text          0x0043f7a0      0x120 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(main.o)
-                0x0043f7a0                _main
- .text          0x0043f8c0       0xb0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(gccmain.o)
-                0x0043f950                ___main
-                0x0043f8c0                ___do_global_dtors
-                0x0043f8f0                ___do_global_ctors
- .text          0x0043f970       0x30 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc.o)
-                0x0043f970                __pei386_runtime_relocator
- .text          0x0043f9a0      0x100 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(cpu_features.o)
-                0x0043f9a0                ___cpu_features_init
- .text          0x0043faa0       0x10 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRT_fp10.o)
-                0x0043faa0                __fpreset
-                0x0043faa0                _fpreset
- .text          0x0043fab0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc-list.o)
- .text          0x0043fab0       0x30 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_chkstk.o)
-                0x0043fab0                ___chkstk
-                0x0043fab0                __alloca
- .text          0x0043fae0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
- .text          0x0043fae0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgs00084.o)
-                0x0043fae0                _strnicmp
- .text          0x0043fae8        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgh.o)
- .text          0x0043fae8        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgt.o)
- .text          0x0043fae8        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00266.o)
- .text          0x0043fae8        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00590.o)
- .text          0x0043fae8        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00383.o)
- .text          0x0043fae8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00147.o)
-                0x0043fae8                __cexit
- .text          0x0043faf0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00077.o)
-                0x0043faf0                ___p__environ
- .text          0x0043faf8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00706.o)
-                0x0043faf8                _signal
- .text          0x0043fb00        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00079.o)
-                0x0043fb00                ___p__fmode
- .text          0x0043fb08        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00426.o)
-                0x0043fb08                __setmode
- .text          0x0043fb10        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00055.o)
-                0x0043fb10                ___getmainargs
- .text          0x0043fb18        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00684.o)
-                0x0043fb18                _memset
- .text          0x0043fb20        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00611.o)
-                0x0043fb20                _fgetc
- .text          0x0043fb28        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00592.o)
-                0x0043fb28                _atoi
- .text          0x0043fb30        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00714.o)
-                0x0043fb30                _strchr
- .text          0x0043fb38        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00721.o)
-                0x0043fb38                _strlen
- .text          0x0043fb40        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00724.o)
-                0x0043fb40                _strncpy
- .text          0x0043fb48        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00618.o)
-                0x0043fb48                _fopen
- .text          0x0043fb50        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00682.o)
-                0x0043fb50                _memcpy
- .text          0x0043fb58        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00683.o)
-                0x0043fb58                _memmove
- .text          0x0043fb60        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00723.o)
-                0x0043fb60                _strncmp
- .text          0x0043fb68        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00717.o)
-                0x0043fb68                _strcpy
- .text          0x0043fb70        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00715.o)
-                0x0043fb70                _strcmp
- .text          0x0043fb78        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00137.o)
-                0x0043fb78                __assert
- .text          0x0043fb80        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00709.o)
-                0x0043fb80                _sprintf
- .text          0x0043fb88        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00591.o)
-                0x0043fb88                _atof
- .text          0x0043fb90        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00065.o)
- .text          0x0043fb90        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00392.o)
- .text          0x0043fb90        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00268.o)
-                0x0043fb90                __isctype
- .text          0x0043fb98        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00742.o)
-                0x0043fb98                _tolower
- .text          0x0043fba0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00619.o)
-                0x0043fba0                _fprintf
- .text          0x0043fba8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00607.o)
-                0x0043fba8                _fclose
- .text          0x0043fbb0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00720.o)
-                0x0043fbb0                _strftime
- .text          0x0043fbb8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00610.o)
-                0x0043fbb8                _fflush
- .text          0x0043fbc0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00633.o)
-                0x0043fbc0                _fwrite
- .text          0x0043fbc8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00625.o)
-                0x0043fbc8                _free
- .text          0x0043fbd0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00698.o)
-                0x0043fbd0                _realloc
- .text          0x0043fbd8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00676.o)
-                0x0043fbd8                _malloc
- .text          0x0043fbe0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00613.o)
-                0x0043fbe0                _fgets
- .text          0x0043fbe8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00490.o)
-                0x0043fbe8                __vsnprintf
- .text          0x0043fbf0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00731.o)
-                0x0043fbf0                _strtol
- .text          0x0043fbf8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00732.o)
-                0x0043fbf8                _strtoul
- .text          0x0043fc00        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00712.o)
-                0x0043fc00                _sscanf
- .text          0x0043fc08        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00695.o)
-                0x0043fc08                _qsort
- .text          0x0043fc10        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00722.o)
-                0x0043fc10                _strncat
- .text          0x0043fc18        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00730.o)
-                0x0043fc18                _strtok
- .text          0x0043fc20        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00743.o)
-                0x0043fc20                _toupper
- .text          0x0043fc28        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00713.o)
-                0x0043fc28                _strcat
- .text          0x0043fc30        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00726.o)
-                0x0043fc30                _strrchr
- .text          0x0043fc38        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00604.o)
-                0x0043fc38                _exit
- .text          0x0043fc40        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00718.o)
-                0x0043fc40                _strcspn
- .text          0x0043fc48        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00621.o)
-                0x0043fc48                _fputs
- .text          0x0043fc50        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00637.o)
-                0x0043fc50                _getenv
- .text          0x0043fc58        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00699.o)
-                0x0043fc58                _remove
- .text          0x0043fc60        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfh.o)
- .text          0x0043fc60        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxft.o)
- .text          0x0043fc60        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00739.o)
-                0x0043fc60                _SetUnhandledExceptionFilter@4
- .text          0x0043fc68        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00156.o)
-                0x0043fc68                _ExitProcess@4
- .text          0x0043fc70        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00423.o)
-                0x0043fc70                _GetTickCount@0
- .text          0x0043fc78        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00559.o)
-                0x0043fc78                _MulDiv@12
- .text          0x0043fc80        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00226.o)
-                0x0043fc80                _GetCPInfo@8
- .text          0x0043fc88        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00351.o)
-                0x0043fc88                _GetOEMCP@0
- .text          0x0043fc90        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00327.o)
-                0x0043fc90                _GetLocaleInfoA@16
- .text          0x0043fc98        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00560.o)
-                0x0043fc98                _MultiByteToWideChar@24
- .text          0x0043fca0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00512.o)
-                0x0043fca0                _IsDBCSLeadByteEx@8
- .text          0x0043fca8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00448.o)
-                0x0043fca8                _GlobalAlloc@8
- .text          0x0043fcb0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00459.o)
-                0x0043fcb0                _GlobalLock@4
- .text          0x0043fcb8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00467.o)
-                0x0043fcb8                _GlobalUnlock@4
- .text          0x0043fcc0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00455.o)
-                0x0043fcc0                _GlobalFree@4
- .text          0x0043fcc8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00814.o)
-                0x0043fcc8                _WideCharToMultiByte@32
- .text          0x0043fcd0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00018.o)
-                0x0043fcd0                _Beep@8
- .text          0x0043fcd8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00524.o)
-                0x0043fcd8                _LoadLibraryA@4
- .text          0x0043fce0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00364.o)
-                0x0043fce0                _GetProcAddress@8
- .text          0x0043fce8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00335.o)
-                0x0043fce8                _GetModuleFileNameA@12
- .text          0x0043fcf0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00085.o)
-                0x0043fcf0                _CreateProcessA@40
- .text          0x0043fcf8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00038.o)
-                0x0043fcf8                _CloseHandle@4
- .text          0x0043fd00        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00069.o)
-                0x0043fd00                _CreateFileMappingA@24
- .text          0x0043fd08        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00546.o)
-                0x0043fd08                _MapViewOfFile@20
- .text          0x0043fd10        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00776.o)
-                0x0043fd10                _UnmapViewOfFile@4
- .text          0x0043fd18        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00616.o)
-                0x0043fd18                _ReadFile@20
- .text          0x0043fd20        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00698.o)
-                0x0043fd20                _SetEvent@4
- .text          0x0043fd28        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00810.o)
-                0x0043fd28                _WaitForSingleObject@8
- .text          0x0043fd30        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00325.o)
-                0x0043fd30                _GetLastError@0
- .text          0x0043fd38        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00352.o)
-                0x0043fd38                _GetOverlappedResult@16
- .text          0x0043fd40        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00064.o)
-                0x0043fd40                _CreateEventA@16
- .text          0x0043fd48        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00827.o)
-                0x0043fd48                _WriteFile@20
- .text          0x0043fd50        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00091.o)
-                0x0043fd50                _CreateThread@24
- .text          0x0043fd58        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00433.o)
-                0x0043fd58                _GetVersionExA@4
- .text          0x0043fd60        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00009.o)
-                0x0043fd60                _AllocConsole@0
- .text          0x0043fd68        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00388.o)
-                0x0043fd68                _GetStdHandle@4
- .text          0x0043fd70        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00214.o)
-                0x0043fd70                _FreeLibrary@4
- .text          0x0043fd78        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00084.o)
-                0x0043fd78                _CreatePipe@16
- .text          0x0043fd80        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00710.o)
-                0x0043fd80                _SetHandleInformation@12
- .text          0x0043fd88        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00035.o)
-                0x0043fd88                _ClearCommBreak@4
- .text          0x0043fd90        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00235.o)
-                0x0043fd90                _GetCommState@8
- .text          0x0043fd98        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00655.o)
-                0x0043fd98                _SetCommState@8
- .text          0x0043fda0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00656.o)
-                0x0043fda0                _SetCommTimeouts@8
- .text          0x0043fda8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00068.o)
-                0x0043fda8                _CreateFileA@28
- .text          0x0043fdb0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00652.o)
-                0x0043fdb0                _SetCommBreak@4
- .text          0x0043fdb8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00303.o)
-                0x0043fdb8                _GetEnvironmentVariableA@12
- .text          0x0043fdc0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00443.o)
-                0x0043fdc0                _GetWindowsDirectoryA@8
- .text          0x0043fdc8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00326.o)
-                0x0043fdc8                _GetLocalTime@4
- .text          0x0043fdd0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00220.o)
-                0x0043fdd0                _GetACP@0
- .text          0x0043fdd8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00281.o)
-                0x0043fdd8                _GetCurrentDirectoryA@8
- .text          0x0043fde0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00688.o)
-                0x0043fde0                _SetCurrentDirectoryA@4
- .text          0x0043fde8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00237.o)
-                0x0043fde8                _GetCommandLineA@0
- .text          0x0043fdf0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00386.o)
-                0x0043fdf0                _GetStartupInfoA@4
- .text          0x0043fdf8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00337.o)
-                0x0043fdf8                _GetModuleHandleA@4
- .text          0x0043fe00        0x0 /usr/lib/w32api/libkernel32.a(dyuhh.o)
- .text          0x0043fe00        0x0 /usr/lib/w32api/libkernel32.a(dyuht.o)
+ .text          0x004249b0      0x1e0 testback.o
+ .text          0x00424b90      0x2b0 timing.o
+                0x00424e10                _expire_timer_context
+                0x00424c70                _schedule_timer
+                0x00424d30                _run_timers
+ .text          0x00424e40     0x1110 tree234.o
+                0x00425570                _add234
+                0x00425f00                _del234
+                0x004255a0                _addpos234
+                0x00424e40                _newtree234
+                0x00424eb0                _freetree234
+                0x00424f10                _count234
+                0x00425810                _find234
+                0x00425670                _findrelpos234
+                0x004255d0                _index234
+                0x00425eb0                _delpos234
+                0x00425840                _findrel234
+                0x00425870                _findpos234
+ .text          0x00425f50        0x0 version.o
+ .text          0x00425f50      0x270 wcwidth.o
+                0x00426120                _mk_wcwidth_cjk
+                0x00426160                _mk_wcswidth_cjk
+                0x004260c0                _mk_wcswidth
+                0x00425fd0                _mk_wcwidth
+ .text          0x004261c0      0xfb0 wincfg.o
+                0x00426200                _win_setup_config_box
+ .text          0x00427170     0x56b0 winctrls.o
+                0x0042b050                _dlg_listbox_index
+                0x0042a970                _winctrl_context_help
+                0x0042c6e0                _dlg_set_privdata
+                0x004279f0                _checkbox
+                0x00428aa0                _prefslist
+                0x00427170                _ctlposinit
+                0x004287e0                _ersatztab
+                0x00427a70                _staticwrap
+                0x00427ce0                _statictext
+                0x004275c0                _combobox
+                0x00429390                _progressbar
+                0x0042aee0                _dlg_listbox_addwithid
+                0x004286e0                _listbox
+                0x0042c600                _dp_cleanup
+                0x0042b490                _dlg_fontsel_set
+                0x0042b150                _dlg_listbox_issel
+                0x0042ae40                _dlg_listbox_add
+                0x00429660                _winctrl_add
+                0x0042b3b0                _dlg_filesel_set
+                0x0042c3f0                _dlg_refresh
+                0x004285f0                _bigeditctrl
+                0x00427430                _endbox
+                0x004273d0                _beginbox
+                0x0042c5c0                _dp_add_tree
+                0x0042ac20                _dlg_editbox_set
+                0x0042b590                _winctrl_handle_command
+                0x0042ad00                _dlg_listbox_clear
+                0x00429530                _winctrl_rem_shortcuts
+                0x00428290                _staticpassedit
+                0x00427de0                _staticbtn
+                0x0042b2c0                _dlg_label_change
+                0x0042ab50                _dlg_checkbox_set
+                0x004297d0                _winctrl_findbyid
+                0x00427350                _bartitle
+                0x00427880                _radioline
+                0x004296d0                _winctrl_remove
+                0x004297a0                _winctrl_findbyctrl
+                0x00429820                _winctrl_layout
+                0x00427230                _doctl
+                0x00428e90                _pl_itemfrompt
+                0x0042ac80                _dlg_editbox_get
+                0x0042c4e0                _dlg_coloursel_results
+                0x004284f0                _staticddlbig
+                0x0042aa30                _dlg_radiobutton_set
+                0x00429630                _winctrl_init
+                0x0042c3d0                _dlg_end
+                0x0042ada0                _dlg_listbox_del
+                0x00429800                _winctrl_findbyindex
+                0x0042c190                _dlg_fontsel_get
+                0x00429730                _winctrl_cleanup
+                0x00427d60                _paneltitle
+                0x00427910                _bareradioline
+                0x0042a950                _dlg_last_focused
+                0x00427ee0                _button
+                0x0042c1f0                _dlg_update_start
+                0x0042c4b0                _dlg_coloursel_start
+                0x004282d0                _staticddl
+                0x00428fe0                _handle_prefslist
+                0x0042c380                _dlg_beep
+                0x0042c760                _dlg_alloc_privdata
+                0x0042b1d0                _dlg_listbox_select
+                0x00428250                _staticedit
+                0x004274c0                _editboxfw
+                0x0042c250                _dlg_update_done
+                0x0042abc0                _dlg_checkbox_get
+                0x00428940                _editbutton
+                0x0042c6a0                _dlg_get_privdata
+                0x0042afd0                _dlg_listbox_getid
+                0x0042b260                _dlg_text_set
+                0x004294c0                _winctrl_add_shortcuts
+                0x004283e0                _staticcombo
+                0x0042b410                _dlg_filesel_get
+                0x0042c3a0                _dlg_error_msg
+                0x0042c540                _dp_init
+                0x00427980                _radiobig
+                0x0042c2d0                _dlg_set_focus
+                0x0042aab0                _dlg_radiobutton_get
+                0x00427fb0                _static2btn
+ .text          0x0042c820      0x160 windefs.o
+                0x0042c970                _platform_default_i
+                0x0042c920                _platform_default_s
+                0x0042c8a0                _platform_default_filename
+                0x0042c820                _platform_default_fontspec
+ .text          0x0042c980     0x1ba0 windlg.o
+                0x0042db80                _show_help
+                0x0042df00                _logevent
+                0x0042e0f0                _showeventlog
+                0x0042e1b0                _verify_ssh_host_key
+                0x0042c980                _force_normal
+                0x0042db10                _modal_about_box
+                0x0042dba0                _defuse_showwindow
+                0x0042e4a0                _old_keyfile_warning
+                0x0042e170                _showabout
+                0x0042e370                _askalg
+                0x0042e400                _askappend
+                0x0042dd50                _do_reconfig
+                0x0042dc10                _do_config
+ .text          0x0042e520     0x9d80 window.o
+                0x0042f9b0                _timer_change_notify
+                0x0042eaa0                _connection_fatal
+                0x00432bc0                _refresh_window
+                0x0042fa70                _get_ctx
+                0x00438190                _from_backend
+                0x004314e0                _palette_set
+                0x004324e0                _get_clip
+                0x0042fc40                _do_text_internal
+                0x00433650                _WinMain@16
+                0x00431010                _set_icon
+                0x00432720                _modalfatalbox
+                0x004318c0                _write_clip
+                0x0042f910                _notify_remote_exit
+                0x0042e520                _ldisc_update
+                0x00438240                _agent_schedule_callback
+                0x00432bf0                _set_zoomed
+                0x004381b0                _from_backend_untrusted
+                0x004381d0                _get_userpass_input
+                0x00431780                _write_aclip
+                0x00432af0                _move_window
+                0x00432c50                _is_iconic
+                0x0042eb40                _cmdline_error
+                0x00430a50                _do_text
+                0x0042fac0                _free_ctx
+                0x00430b10                _do_cursor
+                0x00432c70                _get_window_pos
+                0x0042e6b0                _do_select
+                0x0042ea70                _set_raw_mouse_mode
+                0x00438180                _frontend_keypress
+                0x004326a0                _fatalbox
+                0x0042e720                _update_specials_menu
+                0x00430de0                _char_width
+                0x00432ca0                _get_window_pixels
+                0x0042ea50                _set_busy_status
+                0x00432a90                _set_iconic
+                0x0042e640                _cleanup_exit
+                0x00431640                _palette_reset
+                0x0042e530                _get_ttymode
+                0x00432ce0                _get_window_title
+                0x00432920                _do_beep
+                0x00431090                _set_title
+                0x0042fbd0                _sys_cursor
+                0x00433460                _request_resize
+                0x00430ff0                _request_paste
+                0x00431450                _set_sbar
+                0x00432b60                _set_zorder
+ .text          0x004382a0      0xa30 winhandl.o
+                0x00438980                _handle_get_events
+                0x00438910                _handle_write
+                0x004386e0                _handle_input_new
+                0x00438af0                _handle_got_event
+                0x004387f0                _handle_output_new
+                0x00438cc0                _handle_get_privdata
+                0x00438a70                _handle_free
+                0x00438c80                _handle_backlog
+                0x00438c40                _handle_unthrottle
+ .text          0x00438cd0      0x270 winhelp.o
+                0x00438e00                _has_help
+                0x00438ef0                _quit_help
+                0x00438df0                _shutdown_help
+                0x00438cd0                _init_help
+                0x00438e10                _launch_help
+ .text          0x00438f40      0x250 winmisc.o
+                0x00438f40                _platform_get_x11_auth
+                0x00438f70                _filename_from_str
+                0x00438f50                _platform_get_x_display
+                0x00438fd0                _filename_to_str
+                0x00439010                _filename_is_null
+                0x00438fe0                _filename_equal
+                0x00439080                _init_winver
+                0x004390c0                _dputs
+                0x00439020                _get_username
+ .text          0x00439190     0x2660 winnet.o
+                0x0043b5c0                _sk_addr_error
+                0x0043a9b0                _sk_newlistener
+                0x0043a3d0                _sk_register
+                0x00439a40                _winsock_error_string
+                0x0043a350                _sk_addr_free
+                0x0043b6f0                _next_socket
+                0x004399a0                _sk_cleanup
+                0x004391d0                _sk_startup
+                0x00439f00                _sk_nextaddr
+                0x0043b720                _socket_writable
+                0x00439220                _sk_init
+                0x00439b60                _sk_namelookup
+                0x0043b6b0                _first_socket
+                0x0043b650                _socket_reselect_all
+                0x00439f50                _sk_getaddr
+                0x0043add0                _try_send
+                0x0043b760                _net_service_lookup
+                0x0043a180                _sk_address_is_local
+                0x0043a8d0                _sk_new
+                0x00439e80                _sk_nonamelookup
+                0x0043a270                _sk_addrcopy
+                0x0043b070                _select_result
+                0x0043b530                _net_pending_errors
+                0x0043a040                _sk_hostname_is_local
+                0x0043a250                _sk_addrtype
+                0x0043b7a0                _platform_get_x11_unix_address
+ .text          0x0043b7f0      0x380 winprint.o
+                0x0043b9b0                _printer_finish_enum
+                0x0043b970                _printer_get_name
+                0x0043b7f0                _printer_start_enum
+                0x0043bb20                _printer_finish_job
+                0x0043ba00                _printer_start_job
+                0x0043bae0                _printer_job_data
+ .text          0x0043bb70      0x450 winproxy.o
+                0x0043bd20                _platform_new_connection
+                0x0043bb70                _localproxy_gotdata
+                0x0043bc00                _localproxy_sentdata
+ .text          0x0043bfc0      0x840 winser.o
+ .text          0x0043c800     0x13b0 winstore.o
+                0x0043ce10                _read_setting_filename
+                0x0043ca10                _write_setting_i
+                0x0043ca50                _close_settings_w
+                0x0043d8f0                _read_random_seed
+                0x0043c9b0                _write_setting_s
+                0x0043d140                _verify_host_key
+                0x0043cd40                _write_setting_fontspec
+                0x0043ca70                _open_settings_r
+                0x0043cb40                _read_setting_s
+                0x0043d970                _write_random_seed
+                0x0043cf90                _enum_settings_next
+                0x0043ce50                _write_setting_filename
+                0x0043cc00                _read_setting_fontspec
+                0x0043cba0                _read_setting_i
+                0x0043c8a0                _open_settings_w
+                0x0043d440                _store_host_key
+                0x0043cf30                _enum_settings_start
+                0x0043ce80                _close_settings_r
+                0x0043da50                _cleanup_all
+                0x0043cea0                _del_settings
+                0x0043d090                _enum_settings_finish
+ .text          0x0043dbb0       0x90 wintime.o
+                0x0043dbb0                _ltime
+ .text          0x0043dc40     0x1090 winucs.o
+                0x0043e610                _init_ucs
+                0x0043dca0                _xlat_uskbd2cyrllic
+                0x0043e2e0                _cp_enumerate
+                0x0043ddc0                _decode_codepage
+                0x0043e460                _mb_to_wc
+                0x0043e300                _wc_to_mb
+                0x0043dcc0                _check_compose_internal
+                0x0043e4a0                _get_unitab
+                0x0043dda0                _check_compose
+                0x0043ecb0                _is_dbcs_leadbyte
+                0x0043e190                _cp_name
+ .text          0x0043ecd0      0x580 winutils.o
+                0x0043ef10                _split_into_argv
+                0x0043ecd0                _request_file
+                0x0043ee60                _message_box
+                0x0043ede0                _filereq_free
+                0x0043edc0                _filereq_new
+                0x0043eee0                _pgp_fingerprints
+ .text          0x0043f250        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00245.o)
+                0x0043f250                _GetUserNameA@8
+ .text          0x0043f258        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00389.o)
+                0x0043f258                _RegCreateKeyA@12
+ .text          0x0043f260        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00386.o)
+                0x0043f260                _RegCloseKey@4
+ .text          0x0043f268        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00434.o)
+                0x0043f268                _RegSetValueExA@24
+ .text          0x0043f270        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00412.o)
+                0x0043f270                _RegOpenKeyA@12
+ .text          0x0043f278        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00423.o)
+                0x0043f278                _RegQueryValueExA@24
+ .text          0x0043f280        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00393.o)
+                0x0043f280                _RegDeleteKeyA@8
+ .text          0x0043f288        0x8 /usr/lib/w32api/libadvapi32.a(dykgs00400.o)
+                0x0043f288                _RegEnumKeyA@16
+ .text          0x0043f290        0x0 /usr/lib/w32api/libadvapi32.a(dykgh.o)
+ .text          0x0043f290        0x0 /usr/lib/w32api/libadvapi32.a(dykgt.o)
+ .text          0x0043f290        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00094.o)
+                0x0043f290                _MakeDragList@4
+ .text          0x0043f298        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00093.o)
+                0x0043f298                _LBItemFromPt@16
+ .text          0x0043f2a0        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00041.o)
+                0x0043f2a0                _DrawInsert@12
+ .text          0x0043f2a8        0x8 /usr/lib/w32api/libcomctl32.a(dkzhs00091.o)
+                0x0043f2a8                _InitCommonControls@0
+ .text          0x0043f2b0        0x0 /usr/lib/w32api/libcomctl32.a(dkzhh.o)
+ .text          0x0043f2b0        0x0 /usr/lib/w32api/libcomctl32.a(dkzht.o)
+ .text          0x0043f2b0        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00002.o)
+                0x0043f2b0                _ChooseFontA@4
+ .text          0x0043f2b8        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00000.o)
+                0x0043f2b8                _ChooseColorA@4
+ .text          0x0043f2c0        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00011.o)
+                0x0043f2c0                _GetSaveFileNameA@4
+ .text          0x0043f2c8        0x8 /usr/lib/w32api/libcomdlg32.a(dmycs00009.o)
+                0x0043f2c8                _GetOpenFileNameA@4
+ .text          0x0043f2d0        0x0 /usr/lib/w32api/libcomdlg32.a(dmych.o)
+ .text          0x0043f2d0        0x0 /usr/lib/w32api/libcomdlg32.a(dmyct.o)
+ .text          0x0043f2d0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00034.o)
+                0x0043f2d0                _CreateCompatibleDC@4
+ .text          0x0043f2d8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00279.o)
+                0x0043f2d8                _SelectObject@8
+ .text          0x0043f2e0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00211.o)
+                0x0043f2e0                _GetTextExtentPoint32A@16
+ .text          0x0043f2e8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00070.o)
+                0x0043f2e8                _DeleteDC@4
+ .text          0x0043f2f0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00199.o)
+                0x0043f2f0                _GetStockObject@4
+ .text          0x0043f2f8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00067.o)
+                0x0043f2f8                _CreateSolidBrush@4
+ .text          0x0043f300        0x8 /usr/lib/w32api/libgdi32.a(dyohs00261.o)
+                0x0043f300                _Rectangle@20
+ .text          0x0043f308        0x8 /usr/lib/w32api/libgdi32.a(dyohs00321.o)
+                0x0043f308                _SetTextColor@8
+ .text          0x0043f310        0x8 /usr/lib/w32api/libgdi32.a(dyohs00285.o)
+                0x0043f310                _SetBkColor@8
+ .text          0x0043f318        0x8 /usr/lib/w32api/libgdi32.a(dyohs00337.o)
+                0x0043f318                _TextOutA@20
+ .text          0x0043f320        0x8 /usr/lib/w32api/libgdi32.a(dyohs00073.o)
+                0x0043f320                _DeleteObject@4
+ .text          0x0043f328        0x8 /usr/lib/w32api/libgdi32.a(dyohs00047.o)
+                0x0043f328                _CreateFontIndirectA@4
+ .text          0x0043f330        0x8 /usr/lib/w32api/libgdi32.a(dyohs00146.o)
+                0x0043f330                _GetDeviceCaps@8
+ .text          0x0043f338        0x8 /usr/lib/w32api/libgdi32.a(dyohs00304.o)
+                0x0043f338                _SetMapMode@8
+ .text          0x0043f340        0x8 /usr/lib/w32api/libgdi32.a(dyohs00208.o)
+                0x0043f340                _GetTextExtentExPointA@28
+ .text          0x0043f348        0x8 /usr/lib/w32api/libgdi32.a(dyohs00056.o)
+                0x0043f348                _CreatePalette@4
+ .text          0x0043f350        0x8 /usr/lib/w32api/libgdi32.a(dyohs00280.o)
+                0x0043f350                _SelectPalette@12
+ .text          0x0043f358        0x8 /usr/lib/w32api/libgdi32.a(dyohs00258.o)
+                0x0043f358                _RealizePalette@4
+ .text          0x0043f360        0x8 /usr/lib/w32api/libgdi32.a(dyohs00046.o)
+                0x0043f360                _CreateFontA@56
+ .text          0x0043f368        0x8 /usr/lib/w32api/libgdi32.a(dyohs00217.o)
+                0x0043f368                _GetTextMetricsA@8
+ .text          0x0043f370        0x8 /usr/lib/w32api/libgdi32.a(dyohs00183.o)
+                0x0043f370                _GetObjectA@12
+ .text          0x0043f378        0x8 /usr/lib/w32api/libgdi32.a(dyohs00339.o)
+                0x0043f378                _TranslateCharsetInfo@12
+ .text          0x0043f380        0x8 /usr/lib/w32api/libgdi32.a(dyohs00033.o)
+                0x0043f380                _CreateCompatibleBitmap@12
+ .text          0x0043f388        0x8 /usr/lib/w32api/libgdi32.a(dyohs00319.o)
+                0x0043f388                _SetTextAlign@8
+ .text          0x0043f390        0x8 /usr/lib/w32api/libgdi32.a(dyohs00286.o)
+                0x0043f390                _SetBkMode@8
+ .text          0x0043f398        0x8 /usr/lib/w32api/libgdi32.a(dyohs00102.o)
+                0x0043f398                _ExtTextOutA@32
+ .text          0x0043f3a0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00190.o)
+                0x0043f3a0                _GetPixel@12
+ .text          0x0043f3a8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00058.o)
+                0x0043f3a8                _CreatePen@12
+ .text          0x0043f3b0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00232.o)
+                0x0043f3b0                _MoveToEx@16
+ .text          0x0043f3b8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00229.o)
+                0x0043f3b8                _LineTo@12
+ .text          0x0043f3c0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00103.o)
+                0x0043f3c0                _ExtTextOutW@32
+ .text          0x0043f3c8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00136.o)
+                0x0043f3c8                _GetCharacterPlacementW@24
+ .text          0x0043f3d0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00254.o)
+                0x0043f3d0                _Polyline@12
+ .text          0x0043f3d8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00310.o)
+                0x0043f3d8                _SetPixel@16
+ .text          0x0043f3e0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00130.o)
+                0x0043f3e0                _GetCharWidth32W@16
+ .text          0x0043f3e8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00134.o)
+                0x0043f3e8                _GetCharWidthW@16
+ .text          0x0043f3f0        0x8 /usr/lib/w32api/libgdi32.a(dyohs00129.o)
+                0x0043f3f0                _GetCharWidth32A@16
+ .text          0x0043f3f8        0x8 /usr/lib/w32api/libgdi32.a(dyohs00131.o)
+                0x0043f3f8                _GetCharWidthA@16
+ .text          0x0043f400        0x8 /usr/lib/w32api/libgdi32.a(dyohs00309.o)
+                0x0043f400                _SetPaletteEntries@16
+ .text          0x0043f408        0x8 /usr/lib/w32api/libgdi32.a(dyohs00340.o)
+                0x0043f408                _UnrealizeObject@4
+ .text          0x0043f410        0x8 /usr/lib/w32api/libgdi32.a(dyohs00028.o)
+                0x0043f410                _CreateBitmap@20
+ .text          0x0043f418        0x8 /usr/lib/w32api/libgdi32.a(dyohs00225.o)
+                0x0043f418                _IntersectClipRect@20
+ .text          0x0043f420        0x8 /usr/lib/w32api/libgdi32.a(dyohs00096.o)
+                0x0043f420                _ExcludeClipRect@20
+ .text          0x0043f428        0x8 /usr/lib/w32api/libgdi32.a(dyohs00341.o)
+                0x0043f428                _UpdateColors@4
+ .text          0x0043f430        0x0 /usr/lib/w32api/libgdi32.a(dyohh.o)
+ .text          0x0043f430        0x0 /usr/lib/w32api/libgdi32.a(dyoht.o)
+ .text          0x0043f430        0x8 /usr/lib/w32api/libimm32.a(dasfs00025.o)
+                0x0043f430                _ImmGetContext@4
+ .text          0x0043f438        0x8 /usr/lib/w32api/libimm32.a(dasfs00065.o)
+                0x0043f438                _ImmSetCompositionWindow@8
+ .text          0x0043f440        0x8 /usr/lib/w32api/libimm32.a(dasfs00059.o)
+                0x0043f440                _ImmReleaseContext@8
+ .text          0x0043f448        0x8 /usr/lib/w32api/libimm32.a(dasfs00061.o)
+                0x0043f448                _ImmSetCompositionFontA@8
+ .text          0x0043f450        0x8 /usr/lib/w32api/libimm32.a(dasfs00023.o)
+                0x0043f450                _ImmGetCompositionStringW@16
+ .text          0x0043f458        0x0 /usr/lib/w32api/libimm32.a(dasfh.o)
+ .text          0x0043f458        0x0 /usr/lib/w32api/libimm32.a(dasft.o)
+ .text          0x0043f458        0x8 /usr/lib/w32api/libshell32.a(dsdfs00143.o)
+                0x0043f458                _ShellExecuteA@24
+ .text          0x0043f460        0x0 /usr/lib/w32api/libshell32.a(dsdfh.o)
+ .text          0x0043f460        0x0 /usr/lib/w32api/libshell32.a(dsdft.o)
+ .text          0x0043f460        0x8 /usr/lib/w32api/libuser32.a(dwxfs00133.o)
+                0x0043f460                _DefWindowProcA@16
+ .text          0x0043f468        0x8 /usr/lib/w32api/libuser32.a(dwxfs00568.o)
+                0x0043f468                _SetWindowPos@28
+ .text          0x0043f470        0x8 /usr/lib/w32api/libuser32.a(dwxfs00368.o)
+                0x0043f470                _InvalidateRect@12
+ .text          0x0043f478        0x8 /usr/lib/w32api/libuser32.a(dwxfs00011.o)
+                0x0043f478                _BeginPaint@8
+ .text          0x0043f480        0x8 /usr/lib/w32api/libuser32.a(dwxfs00235.o)
+                0x0043f480                _GetClientRect@8
+ .text          0x0043f488        0x8 /usr/lib/w32api/libuser32.a(dwxfs00349.o)
+                0x0043f488                _GetWindowTextLengthA@4
+ .text          0x0043f490        0x8 /usr/lib/w32api/libuser32.a(dwxfs00348.o)
+                0x0043f490                _GetWindowTextA@12
+ .text          0x0043f498        0x8 /usr/lib/w32api/libuser32.a(dwxfs00183.o)
+                0x0043f498                _EndPaint@8
+ .text          0x0043f4a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00346.o)
+                0x0043f4a0                _GetWindowRect@8
+ .text          0x0043f4a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00089.o)
+                0x0043f4a8                _CreateWindowExA@48
+ .text          0x0043f4b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00581.o)
+                0x0043f4b0                _ShowWindow@8
+ .text          0x0043f4b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00322.o)
+                0x0043f4b8                _GetSysColor@4
+ .text          0x0043f4c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00587.o)
+                0x0043f4c0                _SystemParametersInfoA@16
+ .text          0x0043f4c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00570.o)
+                0x0043f4c8                _SetWindowTextA@8
+ .text          0x0043f4d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00476.o)
+                0x0043f4d0                _RegisterClassA@4
+ .text          0x0043f4d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00143.o)
+                0x0043f4d8                _DestroyWindow@4
+ .text          0x0043f4e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00224.o)
+                0x0043f4e0                _GetCaretBlinkTime@0
+ .text          0x0043f4e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00504.o)
+                0x0043f4e8                _SendMessageA@16
+ .text          0x0043f4f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00423.o)
+                0x0043f4f0                _MapDialogRect@8
+ .text          0x0043f4f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00247.o)
+                0x0043f4f8                _GetDC@4
+ .text          0x0043f500        0x8 /usr/lib/w32api/libuser32.a(dwxfs00490.o)
+                0x0043f500                _ReleaseDC@8
+ .text          0x0043f508        0x8 /usr/lib/w32api/libuser32.a(dwxfs00501.o)
+                0x0043f508                _SendDlgItemMessageA@20
+ .text          0x0043f510        0x8 /usr/lib/w32api/libuser32.a(dwxfs00565.o)
+                0x0043f510                _SetWindowLongA@12
+ .text          0x0043f518        0x8 /usr/lib/w32api/libuser32.a(dwxfs00430.o)
+                0x0043f518                _MessageBeep@4
+ .text          0x0043f520        0x8 /usr/lib/w32api/libuser32.a(dwxfs00056.o)
+                0x0043f520                _CheckRadioButton@16
+ .text          0x0043f528        0x8 /usr/lib/w32api/libuser32.a(dwxfs00384.o)
+                0x0043f528                _IsDlgButtonChecked@8
+ .text          0x0043f530        0x8 /usr/lib/w32api/libuser32.a(dwxfs00053.o)
+                0x0043f530                _CheckDlgButton@12
+ .text          0x0043f538        0x8 /usr/lib/w32api/libuser32.a(dwxfs00526.o)
+                0x0043f538                _SetDlgItemTextA@12
+ .text          0x0043f540        0x8 /usr/lib/w32api/libuser32.a(dwxfs00254.o)
+                0x0043f540                _GetDlgItemTextA@16
+ .text          0x0043f548        0x8 /usr/lib/w32api/libuser32.a(dwxfs00487.o)
+                0x0043f548                _RegisterWindowMessageA@4
+ .text          0x0043f550        0x8 /usr/lib/w32api/libuser32.a(dwxfs00162.o)
+                0x0043f550                _DrawEdge@16
+ .text          0x0043f558        0x8 /usr/lib/w32api/libuser32.a(dwxfs00513.o)
+                0x0043f558                _SetCapture@4
+ .text          0x0043f560        0x8 /usr/lib/w32api/libuser32.a(dwxfs00252.o)
+                0x0043f560                _GetDlgItem@8
+ .text          0x0043f568        0x8 /usr/lib/w32api/libuser32.a(dwxfs00529.o)
+                0x0043f568                _SetFocus@4
+ .text          0x0043f570        0x8 /usr/lib/w32api/libuser32.a(dwxfs00431.o)
+                0x0043f570                _MessageBoxA@16
+ .text          0x0043f578        0x8 /usr/lib/w32api/libuser32.a(dwxfs00345.o)
+                0x0043f578                _GetWindowPlacement@8
+ .text          0x0043f580        0x8 /usr/lib/w32api/libuser32.a(dwxfs00567.o)
+                0x0043f580                _SetWindowPlacement@8
+ .text          0x0043f588        0x8 /usr/lib/w32api/libuser32.a(dwxfs00303.o)
+                0x0043f588                _GetParent@4
+ .text          0x0043f590        0x8 /usr/lib/w32api/libuser32.a(dwxfs00512.o)
+                0x0043f590                _SetActiveWindow@4
+ .text          0x0043f598        0x8 /usr/lib/w32api/libuser32.a(dwxfs00181.o)
+                0x0043f598                _EndDialog@8
+ .text          0x0043f5a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00179.o)
+                0x0043f5a0                _EnableWindow@8
+ .text          0x0043f5a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00146.o)
+                0x0043f5a8                _DialogBoxParamA@20
+ .text          0x0043f5b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00126.o)
+                0x0043f5b0                _DefDlgProcA@16
+ .text          0x0043f5b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00402.o)
+                0x0043f5b8                _LoadCursorA@8
+ .text          0x0043f5c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00079.o)
+                0x0043f5c0                _CreateDialogParamA@20
+ .text          0x0043f5c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00292.o)
+                0x0043f5c8                _GetMessageA@16
+ .text          0x0043f5d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00340.o)
+                0x0043f5d0                _GetWindowLongA@8
+ .text          0x0043f5d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00382.o)
+                0x0043f5d8                _IsDialogMessageA@8
+ .text          0x0043f5e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00148.o)
+                0x0043f5e0                _DispatchMessageA@4
+ .text          0x0043f5e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00465.o)
+                0x0043f5e8                _PostQuitMessage@4
+ .text          0x0043f5f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00489.o)
+                0x0043f5f0                _ReleaseCapture@0
+ .text          0x0043f5f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00223.o)
+                0x0043f5f8                _GetCapture@0
+ .text          0x0043f600        0x8 /usr/lib/w32api/libuser32.a(dwxfs00406.o)
+                0x0043f600                _LoadIconA@8
+ .text          0x0043f608        0x8 /usr/lib/w32api/libuser32.a(dwxfs00249.o)
+                0x0043f608                _GetDesktopWindow@0
+ .text          0x0043f610        0x8 /usr/lib/w32api/libuser32.a(dwxfs00442.o)
+                0x0043f610                _MoveWindow@24
+ .text          0x0043f618        0x8 /usr/lib/w32api/libuser32.a(dwxfs00136.o)
+                0x0043f618                _DeleteMenu@12
+ .text          0x0043f620        0x8 /usr/lib/w32api/libuser32.a(dwxfs00006.o)
+                0x0043f620                _AppendMenuA@16
+ .text          0x0043f628        0x8 /usr/lib/w32api/libuser32.a(dwxfs00362.o)
+                0x0043f628                _InsertMenuA@20
+ .text          0x0043f630        0x8 /usr/lib/w32api/libuser32.a(dwxfs00088.o)
+                0x0043f630                _CreatePopupMenu@0
+ .text          0x0043f638        0x8 /usr/lib/w32api/libuser32.a(dwxfs00516.o)
+                0x0043f638                _SetClassLongA@12
+ .text          0x0043f640        0x8 /usr/lib/w32api/libuser32.a(dwxfs00521.o)
+                0x0043f640                _SetCursor@4
+ .text          0x0043f648        0x8 /usr/lib/w32api/libuser32.a(dwxfs00578.o)
+                0x0043f648                _ShowCursor@4
+ .text          0x0043f650        0x8 /usr/lib/w32api/libuser32.a(dwxfs00272.o)
+                0x0043f650                _GetKeyboardState@4
+ .text          0x0043f658        0x8 /usr/lib/w32api/libuser32.a(dwxfs00397.o)
+                0x0043f658                _KillTimer@8
+ .text          0x0043f660        0x8 /usr/lib/w32api/libuser32.a(dwxfs00559.o)
+                0x0043f660                _SetTimer@16
+ .text          0x0043f668        0x8 /usr/lib/w32api/libuser32.a(dwxfs00395.o)
+                0x0043f668                _IsZoomed@4
+ .text          0x0043f670        0x8 /usr/lib/w32api/libuser32.a(dwxfs00515.o)
+                0x0043f670                _SetCaretPos@8
+ .text          0x0043f678        0x8 /usr/lib/w32api/libuser32.a(dwxfs00387.o)
+                0x0043f678                _IsIconic@4
+ .text          0x0043f680        0x8 /usr/lib/w32api/libuser32.a(dwxfs00550.o)
+                0x0043f680                _SetScrollInfo@16
+ .text          0x0043f688        0x8 /usr/lib/w32api/libuser32.a(dwxfs00452.o)
+                0x0043f688                _OpenClipboard@4
+ .text          0x0043f690        0x8 /usr/lib/w32api/libuser32.a(dwxfs00176.o)
+                0x0043f690                _EmptyClipboard@0
+ .text          0x0043f698        0x8 /usr/lib/w32api/libuser32.a(dwxfs00519.o)
+                0x0043f698                _SetClipboardData@8
+ .text          0x0043f6a0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00061.o)
+                0x0043f6a0                _CloseClipboard@0
+ .text          0x0043f6a8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00480.o)
+                0x0043f6a8                _RegisterClipboardFormatA@4
+ .text          0x0043f6b0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00237.o)
+                0x0043f6b0                _GetClipboardData@4
+ .text          0x0043f6b8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00213.o)
+                0x0043f6b8                _FlashWindow@8
+ .text          0x0043f6c0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00073.o)
+                0x0043f6c0                _CreateCaret@16
+ .text          0x0043f6c8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00256.o)
+                0x0043f6c8                _GetDoubleClickTime@0
+ .text          0x0043f6d0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00324.o)
+                0x0043f6d0                _GetSystemMenu@8
+ .text          0x0043f6d8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00087.o)
+                0x0043f6d8                _CreateMenu@0
+ .text          0x0043f6e0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00268.o)
+                0x0043f6e0                _GetKeyboardLayout@4
+ .text          0x0043f6e8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00530.o)
+                0x0043f6e8                _SetForegroundWindow@4
+ .text          0x0043f6f0        0x8 /usr/lib/w32api/libuser32.a(dwxfs00258.o)
+                0x0043f6f0                _GetForegroundWindow@0
+ .text          0x0043f6f8        0x8 /usr/lib/w32api/libuser32.a(dwxfs00617.o)
+                0x0043f6f8                _UpdateWindow@4
+ .text          0x0043f700        0x8 /usr/lib/w32api/libuser32.a(dwxfs00443.o)
+                0x0043f700                _MsgWaitForMultipleObjects@20
+ .text          0x0043f708        0x8 /usr/lib/w32api/libuser32.a(dwxfs00461.o)
+                0x0043f708                _PeekMessageA@20
+ .text          0x0043f710        0x8 /usr/lib/w32api/libuser32.a(dwxfs00391.o)
+                0x0043f710                _IsWindow@4
+ .text          0x0043f718        0x8 /usr/lib/w32api/libuser32.a(dwxfs00054.o)
+                0x0043f718                _CheckMenuItem@12
+ .text          0x0043f720        0x8 /usr/lib/w32api/libuser32.a(dwxfs00139.o)
+                0x0043f720                _DestroyCaret@0
+ .text          0x0043f728        0x8 /usr/lib/w32api/libuser32.a(dwxfs00177.o)
+                0x0043f728                _EnableMenuItem@12
+ .text          0x0043f730        0x8 /usr/lib/w32api/libuser32.a(dwxfs00604.o)
+                0x0043f730                _TranslateMessage@4
+ .text          0x0043f738        0x8 /usr/lib/w32api/libuser32.a(dwxfs00246.o)
+                0x0043f738                _GetCursorPos@4
+ .text          0x0043f740        0x8 /usr/lib/w32api/libuser32.a(dwxfs00295.o)
+                0x0043f740                _GetMessageTime@0
+ .text          0x0043f748        0x8 /usr/lib/w32api/libuser32.a(dwxfs00598.o)
+                0x0043f748                _TrackPopupMenu@28
+ .text          0x0043f750        0x8 /usr/lib/w32api/libuser32.a(dwxfs00463.o)
+                0x0043f750                _PostMessageA@16
+ .text          0x0043f758        0x8 /usr/lib/w32api/libuser32.a(dwxfs00577.o)
+                0x0043f758                _ShowCaret@4
+ .text          0x0043f760        0x8 /usr/lib/w32api/libuser32.a(dwxfs00531.o)
+                0x0043f760                _SetKeyboardState@4
+ .text          0x0043f768        0x8 /usr/lib/w32api/libuser32.a(dwxfs00594.o)
+                0x0043f768                _ToAsciiEx@24
+ .text          0x0043f770        0x8 /usr/lib/w32api/libuser32.a(dwxfs00356.o)
+                0x0043f770                _HideCaret@4
+ .text          0x0043f778        0x8 /usr/lib/w32api/libuser32.a(dwxfs00627.o)
+                0x0043f778                _WinHelpA@16
+ .text          0x0043f780        0x8 /usr/lib/w32api/libuser32.a(dwxfs00434.o)
+                0x0043f780                _MessageBoxIndirectA@4
+ .text          0x0043f788        0x0 /usr/lib/w32api/libuser32.a(dwxfh.o)
+ .text          0x0043f788        0x0 /usr/lib/w32api/libuser32.a(dwxft.o)
+ .text          0x0043f788        0x8 /usr/lib/w32api/libwinmm.a(dumfs00008.o)
+                0x0043f788                _PlaySoundA@12
+ .text          0x0043f790        0x0 /usr/lib/w32api/libwinmm.a(dumfh.o)
+ .text          0x0043f790        0x0 /usr/lib/w32api/libwinmm.a(dumft.o)
+ .text          0x0043f790        0x8 /usr/lib/w32api/libwinspool.a(dwbds00078.o)
+                0x0043f790                _EnumPrintersA@28
+ .text          0x0043f798        0x8 /usr/lib/w32api/libwinspool.a(dwbds00102.o)
+                0x0043f798                _OpenPrinterA@12
+ .text          0x0043f7a0        0x8 /usr/lib/w32api/libwinspool.a(dwbds00126.o)
+                0x0043f7a0                _StartDocPrinterA@12
+ .text          0x0043f7a8        0x8 /usr/lib/w32api/libwinspool.a(dwbds00128.o)
+                0x0043f7a8                _StartPagePrinter@4
+ .text          0x0043f7b0        0x8 /usr/lib/w32api/libwinspool.a(dwbds00025.o)
+                0x0043f7b0                _ClosePrinter@4
+ .text          0x0043f7b8        0x8 /usr/lib/w32api/libwinspool.a(dwbds00059.o)
+                0x0043f7b8                _EndDocPrinter@4
+ .text          0x0043f7c0        0x8 /usr/lib/w32api/libwinspool.a(dwbds00130.o)
+                0x0043f7c0                _WritePrinter@16
+ .text          0x0043f7c8        0x8 /usr/lib/w32api/libwinspool.a(dwbds00060.o)
+                0x0043f7c8                _EndPagePrinter@4
+ .text          0x0043f7d0        0x0 /usr/lib/w32api/libwinspool.a(dwbdh.o)
+ .text          0x0043f7d0        0x0 /usr/lib/w32api/libwinspool.a(dwbdt.o)
+ .text          0x0043f7d0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTglob.o)
+ .text          0x0043f7d0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTfmode.o)
+ .text          0x0043f7d0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(txtmode.o)
+ .text          0x0043f7d0      0x120 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(main.o)
+                0x0043f7d0                _main
+ .text          0x0043f8f0       0xb0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(gccmain.o)
+                0x0043f980                ___main
+                0x0043f8f0                ___do_global_dtors
+                0x0043f920                ___do_global_ctors
+ .text          0x0043f9a0       0x30 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc.o)
+                0x0043f9a0                __pei386_runtime_relocator
+ .text          0x0043f9d0      0x100 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(cpu_features.o)
+                0x0043f9d0                ___cpu_features_init
+ .text          0x0043fad0       0x10 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRT_fp10.o)
+                0x0043fad0                __fpreset
+                0x0043fad0                _fpreset
+ .text          0x0043fae0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc-list.o)
+ .text          0x0043fae0       0x30 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_chkstk.o)
+                0x0043fae0                ___chkstk
+                0x0043fae0                __alloca
+ .text          0x0043fb10        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
+ .text          0x0043fb10        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgs00084.o)
+                0x0043fb10                _strnicmp
+ .text          0x0043fb18        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgh.o)
+ .text          0x0043fb18        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgt.o)
+ .text          0x0043fb18        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00266.o)
+ .text          0x0043fb18        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00590.o)
+ .text          0x0043fb18        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00383.o)
+ .text          0x0043fb18        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00147.o)
+                0x0043fb18                __cexit
+ .text          0x0043fb20        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00077.o)
+                0x0043fb20                ___p__environ
+ .text          0x0043fb28        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00706.o)
+                0x0043fb28                _signal
+ .text          0x0043fb30        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00079.o)
+                0x0043fb30                ___p__fmode
+ .text          0x0043fb38        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00426.o)
+                0x0043fb38                __setmode
+ .text          0x0043fb40        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00055.o)
+                0x0043fb40                ___getmainargs
+ .text          0x0043fb48        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00684.o)
+                0x0043fb48                _memset
+ .text          0x0043fb50        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00611.o)
+                0x0043fb50                _fgetc
+ .text          0x0043fb58        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00592.o)
+                0x0043fb58                _atoi
+ .text          0x0043fb60        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00714.o)
+                0x0043fb60                _strchr
+ .text          0x0043fb68        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00721.o)
+                0x0043fb68                _strlen
+ .text          0x0043fb70        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00724.o)
+                0x0043fb70                _strncpy
+ .text          0x0043fb78        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00618.o)
+                0x0043fb78                _fopen
+ .text          0x0043fb80        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00682.o)
+                0x0043fb80                _memcpy
+ .text          0x0043fb88        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00683.o)
+                0x0043fb88                _memmove
+ .text          0x0043fb90        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00723.o)
+                0x0043fb90                _strncmp
+ .text          0x0043fb98        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00717.o)
+                0x0043fb98                _strcpy
+ .text          0x0043fba0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00715.o)
+                0x0043fba0                _strcmp
+ .text          0x0043fba8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00137.o)
+                0x0043fba8                __assert
+ .text          0x0043fbb0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00709.o)
+                0x0043fbb0                _sprintf
+ .text          0x0043fbb8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00591.o)
+                0x0043fbb8                _atof
+ .text          0x0043fbc0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00065.o)
+ .text          0x0043fbc0        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00392.o)
+ .text          0x0043fbc0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00268.o)
+                0x0043fbc0                __isctype
+ .text          0x0043fbc8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00742.o)
+                0x0043fbc8                _tolower
+ .text          0x0043fbd0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00619.o)
+                0x0043fbd0                _fprintf
+ .text          0x0043fbd8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00607.o)
+                0x0043fbd8                _fclose
+ .text          0x0043fbe0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00720.o)
+                0x0043fbe0                _strftime
+ .text          0x0043fbe8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00610.o)
+                0x0043fbe8                _fflush
+ .text          0x0043fbf0        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00633.o)
+                0x0043fbf0                _fwrite
+ .text          0x0043fbf8        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00625.o)
+                0x0043fbf8                _free
+ .text          0x0043fc00        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00698.o)
+                0x0043fc00                _realloc
+ .text          0x0043fc08        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00676.o)
+                0x0043fc08                _malloc
+ .text          0x0043fc10        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00613.o)
+                0x0043fc10                _fgets
+ .text          0x0043fc18        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00490.o)
+                0x0043fc18                __vsnprintf
+ .text          0x0043fc20        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00731.o)
+                0x0043fc20                _strtol
+ .text          0x0043fc28        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00732.o)
+                0x0043fc28                _strtoul
+ .text          0x0043fc30        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00712.o)
+                0x0043fc30                _sscanf
+ .text          0x0043fc38        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00695.o)
+                0x0043fc38                _qsort
+ .text          0x0043fc40        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00722.o)
+                0x0043fc40                _strncat
+ .text          0x0043fc48        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00730.o)
+                0x0043fc48                _strtok
+ .text          0x0043fc50        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00743.o)
+                0x0043fc50                _toupper
+ .text          0x0043fc58        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00713.o)
+                0x0043fc58                _strcat
+ .text          0x0043fc60        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00726.o)
+                0x0043fc60                _strrchr
+ .text          0x0043fc68        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00604.o)
+                0x0043fc68                _exit
+ .text          0x0043fc70        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00718.o)
+                0x0043fc70                _strcspn
+ .text          0x0043fc78        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00621.o)
+                0x0043fc78                _fputs
+ .text          0x0043fc80        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00637.o)
+                0x0043fc80                _getenv
+ .text          0x0043fc88        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00699.o)
+                0x0043fc88                _remove
+ .text          0x0043fc90        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfh.o)
+ .text          0x0043fc90        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxft.o)
+ .text          0x0043fc90        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00739.o)
+                0x0043fc90                _SetUnhandledExceptionFilter@4
+ .text          0x0043fc98        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00156.o)
+                0x0043fc98                _ExitProcess@4
+ .text          0x0043fca0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00423.o)
+                0x0043fca0                _GetTickCount@0
+ .text          0x0043fca8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00559.o)
+                0x0043fca8                _MulDiv@12
+ .text          0x0043fcb0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00226.o)
+                0x0043fcb0                _GetCPInfo@8
+ .text          0x0043fcb8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00351.o)
+                0x0043fcb8                _GetOEMCP@0
+ .text          0x0043fcc0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00327.o)
+                0x0043fcc0                _GetLocaleInfoA@16
+ .text          0x0043fcc8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00560.o)
+                0x0043fcc8                _MultiByteToWideChar@24
+ .text          0x0043fcd0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00512.o)
+                0x0043fcd0                _IsDBCSLeadByteEx@8
+ .text          0x0043fcd8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00448.o)
+                0x0043fcd8                _GlobalAlloc@8
+ .text          0x0043fce0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00459.o)
+                0x0043fce0                _GlobalLock@4
+ .text          0x0043fce8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00467.o)
+                0x0043fce8                _GlobalUnlock@4
+ .text          0x0043fcf0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00455.o)
+                0x0043fcf0                _GlobalFree@4
+ .text          0x0043fcf8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00814.o)
+                0x0043fcf8                _WideCharToMultiByte@32
+ .text          0x0043fd00        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00018.o)
+                0x0043fd00                _Beep@8
+ .text          0x0043fd08        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00524.o)
+                0x0043fd08                _LoadLibraryA@4
+ .text          0x0043fd10        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00364.o)
+                0x0043fd10                _GetProcAddress@8
+ .text          0x0043fd18        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00335.o)
+                0x0043fd18                _GetModuleFileNameA@12
+ .text          0x0043fd20        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00085.o)
+                0x0043fd20                _CreateProcessA@40
+ .text          0x0043fd28        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00038.o)
+                0x0043fd28                _CloseHandle@4
+ .text          0x0043fd30        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00069.o)
+                0x0043fd30                _CreateFileMappingA@24
+ .text          0x0043fd38        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00546.o)
+                0x0043fd38                _MapViewOfFile@20
+ .text          0x0043fd40        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00776.o)
+                0x0043fd40                _UnmapViewOfFile@4
+ .text          0x0043fd48        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00616.o)
+                0x0043fd48                _ReadFile@20
+ .text          0x0043fd50        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00698.o)
+                0x0043fd50                _SetEvent@4
+ .text          0x0043fd58        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00810.o)
+                0x0043fd58                _WaitForSingleObject@8
+ .text          0x0043fd60        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00325.o)
+                0x0043fd60                _GetLastError@0
+ .text          0x0043fd68        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00352.o)
+                0x0043fd68                _GetOverlappedResult@16
+ .text          0x0043fd70        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00064.o)
+                0x0043fd70                _CreateEventA@16
+ .text          0x0043fd78        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00827.o)
+                0x0043fd78                _WriteFile@20
+ .text          0x0043fd80        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00091.o)
+                0x0043fd80                _CreateThread@24
+ .text          0x0043fd88        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00433.o)
+                0x0043fd88                _GetVersionExA@4
+ .text          0x0043fd90        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00009.o)
+                0x0043fd90                _AllocConsole@0
+ .text          0x0043fd98        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00388.o)
+                0x0043fd98                _GetStdHandle@4
+ .text          0x0043fda0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00214.o)
+                0x0043fda0                _FreeLibrary@4
+ .text          0x0043fda8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00084.o)
+                0x0043fda8                _CreatePipe@16
+ .text          0x0043fdb0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00710.o)
+                0x0043fdb0                _SetHandleInformation@12
+ .text          0x0043fdb8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00035.o)
+                0x0043fdb8                _ClearCommBreak@4
+ .text          0x0043fdc0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00235.o)
+                0x0043fdc0                _GetCommState@8
+ .text          0x0043fdc8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00655.o)
+                0x0043fdc8                _SetCommState@8
+ .text          0x0043fdd0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00656.o)
+                0x0043fdd0                _SetCommTimeouts@8
+ .text          0x0043fdd8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00068.o)
+                0x0043fdd8                _CreateFileA@28
+ .text          0x0043fde0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00652.o)
+                0x0043fde0                _SetCommBreak@4
+ .text          0x0043fde8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00303.o)
+                0x0043fde8                _GetEnvironmentVariableA@12
+ .text          0x0043fdf0        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00443.o)
+                0x0043fdf0                _GetWindowsDirectoryA@8
+ .text          0x0043fdf8        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00326.o)
+                0x0043fdf8                _GetLocalTime@4
+ .text          0x0043fe00        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00220.o)
+                0x0043fe00                _GetACP@0
+ .text          0x0043fe08        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00281.o)
+                0x0043fe08                _GetCurrentDirectoryA@8
+ .text          0x0043fe10        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00688.o)
+                0x0043fe10                _SetCurrentDirectoryA@4
+ .text          0x0043fe18        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00237.o)
+                0x0043fe18                _GetCommandLineA@0
+ .text          0x0043fe20        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00386.o)
+                0x0043fe20                _GetStartupInfoA@4
+ .text          0x0043fe28        0x8 /usr/lib/w32api/libkernel32.a(dyuhs00337.o)
+                0x0043fe28                _GetModuleHandleA@4
+ .text          0x0043fe30        0x0 /usr/lib/w32api/libkernel32.a(dyuhh.o)
+ .text          0x0043fe30        0x0 /usr/lib/w32api/libkernel32.a(dyuht.o)
  *(SORT(.text$*))
  *(.glue_7t)
  *(.glue_7)
-                0x0043fe00                ___CTOR_LIST__ = .
-                0x0043fe00                __CTOR_LIST__ = .
-                0x0043fe00        0x4 LONG 0xffffffff
+                0x0043fe30                ___CTOR_LIST__ = .
+                0x0043fe30                __CTOR_LIST__ = .
+                0x0043fe30        0x4 LONG 0xffffffff
  *(.ctors)
  *(.ctor)
  *(SORT(.ctors.*))
-                0x0043fe04        0x4 LONG 0x0
-                0x0043fe08                ___DTOR_LIST__ = .
-                0x0043fe08                __DTOR_LIST__ = .
-                0x0043fe08        0x4 LONG 0xffffffff
+                0x0043fe34        0x4 LONG 0x0
+                0x0043fe38                ___DTOR_LIST__ = .
+                0x0043fe38                __DTOR_LIST__ = .
+                0x0043fe38        0x4 LONG 0xffffffff
  *(.dtors)
  *(.dtor)
  *(SORT(.dtors.*))
-                0x0043fe0c        0x4 LONG 0x0
+                0x0043fe3c        0x4 LONG 0x0
  *(.fini)
  *(.gcc_exc)
-                0x0043fe10                PROVIDE (etext, .)
+                0x0043fe40                PROVIDE (etext, .)
  *(.gcc_except_table)
 
 .data           0x00440000      0x400
@@ -2236,43 +2236,42 @@ LOAD /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcr
  .rdata         0x00449180      0xda0 terminal.o
                 0x00449184                _sco2ansicolour
                 0x00449180                _sel_nl
- .rdata         0x00449f20        0xc testback.o
- .rdata         0x00449f2c       0x3c tree234.o
- *fill*         0x00449f68       0x18 00
- .rdata         0x00449f80      0x8c0 wcwidth.o
- .rdata         0x0044a840      0xa4c wincfg.o
- .rdata         0x0044b28c      0x544 winctrls.o
- .rdata         0x0044b7d0       0x24 windefs.o
- *fill*         0x0044b7f4        0xc 00
- .rdata         0x0044b800      0x8a0 windlg.o
- .rdata         0x0044c0a0      0x900 window.o
- .rdata         0x0044c9a0       0x58 winhandl.o
- .rdata         0x0044c9f8       0x14 winhelp.o
- .rdata         0x0044ca0c       0x20 winmisc.o
-                0x0044ca0c                _platform_x11_best_transport
- *fill*         0x0044ca2c       0x14 00
- .rdata         0x0044ca40      0xc20 winnet.o
-                0x0044ca50                _in6addr_any
-                0x0044ca40                _in6addr_loopback
- .rdata         0x0044d660       0x20 winprint.o
- .rdata         0x0044d680       0xc0 winproxy.o
- .rdata         0x0044d740      0x244 winser.o
- .rdata         0x0044d984      0x398 winstore.o
- *fill*         0x0044dd1c        0x4 00
- .rdata         0x0044dd20     0x1e80 winucs.o
- .rdata         0x0044fba0      0x25c winutils.o
+ .rdata         0x00449f20       0x3c tree234.o
+ *fill*         0x00449f5c        0x4 00
+ .rdata         0x00449f60      0x8c0 wcwidth.o
+ .rdata         0x0044a820      0xa4c wincfg.o
+ .rdata         0x0044b26c      0x544 winctrls.o
+ .rdata         0x0044b7b0       0x24 windefs.o
+ *fill*         0x0044b7d4        0xc 00
+ .rdata         0x0044b7e0      0x8a0 windlg.o
+ .rdata         0x0044c080      0x900 window.o
+ .rdata         0x0044c980       0x58 winhandl.o
+ .rdata         0x0044c9d8       0x14 winhelp.o
+ .rdata         0x0044c9ec       0x20 winmisc.o
+                0x0044c9ec                _platform_x11_best_transport
+ *fill*         0x0044ca0c       0x14 00
+ .rdata         0x0044ca20      0xc20 winnet.o
+                0x0044ca30                _in6addr_any
+                0x0044ca20                _in6addr_loopback
+ .rdata         0x0044d640       0x20 winprint.o
+ .rdata         0x0044d660       0xc0 winproxy.o
+ .rdata         0x0044d720      0x244 winser.o
+ .rdata         0x0044d964      0x398 winstore.o
+ *fill*         0x0044dcfc        0x4 00
+ .rdata         0x0044dd00     0x1e80 winucs.o
+ .rdata         0x0044fb80      0x25c winutils.o
  *(SORT(.rdata$*))
  *(.eh_frame)
-                0x0044fdfc                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
-                0x0044fdfc                __RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x0044fddc                ___RUNTIME_PSEUDO_RELOC_LIST__ = .
+                0x0044fddc                __RUNTIME_PSEUDO_RELOC_LIST__ = .
  *(.rdata_runtime_pseudo_reloc)
-                0x0044fdfc                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
-                0x0044fdfc                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0044fddc                ___RUNTIME_PSEUDO_RELOC_LIST_END__ = .
+                0x0044fddc                __RUNTIME_PSEUDO_RELOC_LIST_END__ = .
 
 .pdata
  *(.pdata)
 
-.bss            0x00450000     0x4c60
+.bss            0x00450000     0x4c70
                 0x00450000                __bss_start__ = .
  *(.bss)
  .bss           0x00450000        0x8 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/crt2.o
@@ -2298,369 +2297,369 @@ LOAD /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcr
  .bss           0x00450050       0x60 sizetip.o
  .bss           0x004500b0        0x0 telnet.o
  .bss           0x004500b0        0x0 terminal.o
- .bss           0x004500b0        0x0 testback.o
- .bss           0x004500b0       0x30 timing.o
- .bss           0x004500e0        0x0 tree234.o
- .bss           0x004500e0        0x0 version.o
- .bss           0x004500e0        0x0 wcwidth.o
- .bss           0x004500e0        0x0 wincfg.o
- .bss           0x004500e0       0x80 winctrls.o
- .bss           0x00450160        0x0 windefs.o
- .bss           0x00450160      0x140 windlg.o
- .bss           0x004502a0     0x18c0 window.o
- .bss           0x00451b60       0x10 winhandl.o
- .bss           0x00451b70       0x30 winhelp.o
- .bss           0x00451ba0       0x20 winmisc.o
- .bss           0x00451bc0      0x840 winnet.o
- .bss           0x00452400        0x0 winprint.o
- .bss           0x00452400        0x0 winproxy.o
- .bss           0x00452400        0x0 winser.o
- .bss           0x00452400       0x30 winstore.o
- .bss           0x00452430        0x0 wintime.o
- .bss           0x00452430       0x30 winucs.o
- .bss           0x00452460        0x0 winutils.o
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00245.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00389.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00386.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00434.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00412.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00423.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00393.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00400.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libadvapi32.a(dykgt.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00094.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00093.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00041.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00091.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzhh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomctl32.a(dkzht.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00002.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00000.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00011.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00009.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmych.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libcomdlg32.a(dmyct.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00034.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00279.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00211.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00070.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00199.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00067.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00261.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00321.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00285.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00337.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00073.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00047.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00146.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00304.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00208.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00056.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00280.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00258.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00046.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00217.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00183.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00339.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00033.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00319.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00286.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00102.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00190.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00058.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00232.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00229.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00103.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00136.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00254.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00310.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00130.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00134.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00129.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00131.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00309.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00340.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00028.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00225.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00096.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohs00341.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyohh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libgdi32.a(dyoht.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfs00025.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfs00065.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfs00059.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfs00061.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfs00023.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasfh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libimm32.a(dasft.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libshell32.a(dsdfs00143.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libshell32.a(dsdfh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libshell32.a(dsdft.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00133.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00568.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00368.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00011.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00235.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00349.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00348.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00183.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00346.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00089.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00581.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00322.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00587.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00570.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00476.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00143.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00224.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00504.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00423.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00247.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00490.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00501.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00565.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00430.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00056.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00384.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00053.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00526.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00254.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00487.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00162.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00513.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00252.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00529.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00431.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00345.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00567.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00303.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00512.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00181.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00179.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00146.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00126.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00402.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00079.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00292.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00340.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00382.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00148.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00465.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00489.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00223.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00406.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00249.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00442.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00136.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00006.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00362.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00088.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00516.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00521.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00578.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00272.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00397.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00559.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00395.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00515.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00387.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00550.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00452.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00176.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00519.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00061.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00480.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00237.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00213.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00073.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00256.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00324.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00087.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00268.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00530.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00258.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00617.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00443.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00461.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00391.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00054.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00139.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00177.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00604.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00246.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00295.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00598.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00463.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00577.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00531.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00594.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00356.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00627.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfs00434.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxfh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libuser32.a(dwxft.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinmm.a(dumfs00008.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinmm.a(dumfh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinmm.a(dumft.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00078.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00102.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00126.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00128.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00025.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00059.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00130.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbds00060.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbdh.o)
- .bss           0x00452460        0x0 /usr/lib/w32api/libwinspool.a(dwbdt.o)
- .bss           0x00452460        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTglob.o)
- .bss           0x00452460        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTfmode.o)
-                0x00452460                __CRT_fmode
- .bss           0x00452464        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(txtmode.o)
- .bss           0x00452464        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(main.o)
- *fill*         0x00452464        0x4 00
- .bss           0x00452468       0x10 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(gccmain.o)
- .bss           0x00452478        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc.o)
- .bss           0x00452478        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(cpu_features.o)
-                0x00452478                ___cpu_features
- .bss           0x0045247c        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRT_fp10.o)
- .bss           0x0045247c        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc-list.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_chkstk.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgs00084.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgh.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgt.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00266.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00099.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00590.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00383.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00147.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00077.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00706.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00079.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00426.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00055.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00684.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00611.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00592.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00714.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00721.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00724.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00618.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00682.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00683.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00723.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00717.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00715.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00137.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00709.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00591.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00065.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00392.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00268.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00742.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00619.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00607.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00720.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00610.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00633.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00625.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00698.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00676.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00613.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00490.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00731.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00732.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00712.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00695.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00722.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00730.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00743.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00713.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00726.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00604.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00718.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00621.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00637.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00699.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfh.o)
- .bss           0x00452480        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxft.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00739.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00156.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00423.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00559.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00226.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00351.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00327.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00560.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00512.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00448.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00459.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00467.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00455.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00814.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00018.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00524.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00364.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00335.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00085.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00038.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00069.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00546.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00776.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00616.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00698.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00810.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00325.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00352.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00064.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00827.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00091.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00433.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00009.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00388.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00214.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00084.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00710.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00035.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00235.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00655.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00656.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00068.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00652.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00303.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00443.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00326.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00220.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00281.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00688.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00237.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00386.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00337.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuhh.o)
- .bss           0x00452480        0x0 /usr/lib/w32api/libkernel32.a(dyuht.o)
+ .bss           0x004500b0       0x10 testback.o
+ .bss           0x004500c0       0x30 timing.o
+ .bss           0x004500f0        0x0 tree234.o
+ .bss           0x004500f0        0x0 version.o
+ .bss           0x004500f0        0x0 wcwidth.o
+ .bss           0x004500f0        0x0 wincfg.o
+ .bss           0x004500f0       0x80 winctrls.o
+ .bss           0x00450170        0x0 windefs.o
+ .bss           0x00450170      0x140 windlg.o
+ .bss           0x004502b0     0x18c0 window.o
+ .bss           0x00451b70       0x10 winhandl.o
+ .bss           0x00451b80       0x30 winhelp.o
+ .bss           0x00451bb0       0x20 winmisc.o
+ .bss           0x00451bd0      0x840 winnet.o
+ .bss           0x00452410        0x0 winprint.o
+ .bss           0x00452410        0x0 winproxy.o
+ .bss           0x00452410        0x0 winser.o
+ .bss           0x00452410       0x30 winstore.o
+ .bss           0x00452440        0x0 wintime.o
+ .bss           0x00452440       0x30 winucs.o
+ .bss           0x00452470        0x0 winutils.o
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00245.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00389.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00386.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00434.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00412.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00423.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00393.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgs00400.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libadvapi32.a(dykgt.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00094.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00093.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00041.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzhs00091.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzhh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomctl32.a(dkzht.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00002.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00000.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00011.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmycs00009.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmych.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libcomdlg32.a(dmyct.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00034.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00279.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00211.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00070.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00199.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00067.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00261.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00321.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00285.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00337.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00073.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00047.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00146.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00304.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00208.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00056.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00280.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00258.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00046.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00217.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00183.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00339.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00033.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00319.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00286.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00102.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00190.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00058.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00232.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00229.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00103.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00136.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00254.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00310.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00130.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00134.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00129.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00131.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00309.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00340.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00028.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00225.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00096.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohs00341.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyohh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libgdi32.a(dyoht.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfs00025.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfs00065.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfs00059.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfs00061.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfs00023.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasfh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libimm32.a(dasft.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libshell32.a(dsdfs00143.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libshell32.a(dsdfh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libshell32.a(dsdft.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00133.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00568.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00368.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00011.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00235.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00349.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00348.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00183.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00346.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00089.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00581.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00322.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00587.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00570.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00476.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00143.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00224.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00504.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00423.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00247.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00490.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00501.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00565.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00430.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00056.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00384.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00053.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00526.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00254.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00487.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00162.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00513.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00252.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00529.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00431.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00345.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00567.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00303.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00512.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00181.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00179.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00146.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00126.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00402.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00079.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00292.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00340.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00382.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00148.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00465.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00489.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00223.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00406.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00249.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00442.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00136.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00006.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00362.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00088.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00516.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00521.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00578.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00272.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00397.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00559.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00395.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00515.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00387.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00550.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00452.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00176.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00519.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00061.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00480.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00237.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00213.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00073.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00256.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00324.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00087.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00268.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00530.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00258.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00617.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00443.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00461.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00391.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00054.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00139.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00177.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00604.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00246.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00295.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00598.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00463.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00577.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00531.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00594.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00356.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00627.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfs00434.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxfh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libuser32.a(dwxft.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinmm.a(dumfs00008.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinmm.a(dumfh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinmm.a(dumft.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00078.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00102.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00126.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00128.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00025.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00059.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00130.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbds00060.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbdh.o)
+ .bss           0x00452470        0x0 /usr/lib/w32api/libwinspool.a(dwbdt.o)
+ .bss           0x00452470        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTglob.o)
+ .bss           0x00452470        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRTfmode.o)
+                0x00452470                __CRT_fmode
+ .bss           0x00452474        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(txtmode.o)
+ .bss           0x00452474        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(main.o)
+ *fill*         0x00452474        0x4 00
+ .bss           0x00452478       0x10 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(gccmain.o)
+ .bss           0x00452488        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc.o)
+ .bss           0x00452488        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(cpu_features.o)
+                0x00452488                ___cpu_features
+ .bss           0x0045248c        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(CRT_fp10.o)
+ .bss           0x0045248c        0x4 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmingw32.a(pseudo-reloc-list.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_chkstk.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgs00084.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgh.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmoldname.a(dctgt.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00266.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00099.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00590.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00383.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00147.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00077.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00706.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00079.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00426.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00055.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00684.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00611.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00592.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00714.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00721.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00724.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00618.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00682.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00683.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00723.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00717.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00715.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00137.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00709.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00591.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00065.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00392.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00268.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00742.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00619.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00607.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00720.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00610.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00633.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00625.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00698.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00676.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00613.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00490.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00731.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00732.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00712.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00695.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00722.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00730.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00743.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00713.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00726.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00604.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00718.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00621.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00637.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfs00699.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxfh.o)
+ .bss           0x00452490        0x0 /usr/lib/gcc/i686-pc-mingw32/3.4.4/../../../../i686-pc-mingw32/lib/libmsvcrt.a(doxft.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00739.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00156.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00423.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00559.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00226.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00351.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00327.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00560.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00512.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00448.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00459.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00467.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00455.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00814.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00018.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00524.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00364.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00335.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00085.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00038.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00069.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00546.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00776.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00616.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00698.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00810.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00325.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00352.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00064.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00827.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00091.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00433.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00009.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00388.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00214.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00084.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00710.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00035.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00235.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00655.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00656.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00068.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00652.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00303.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00443.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00326.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00220.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00281.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00688.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00237.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00386.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhs00337.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuhh.o)
+ .bss           0x00452490        0x0 /usr/lib/w32api/libkernel32.a(dyuht.o)
  *(COMMON)
- COMMON         0x00452480     0x26d0 window.o
-                0x00452480                _loaded_session
-                0x00452490                _cfg
-                0x00454ad0                _term
-                0x00454ae0                _default_port
-                0x00454af0                _hinst
-                0x00454b00                _logbox
-                0x00454b10                _flags
-                0x00454b20                _hwnd
-                0x00454b30                _logctx
-                0x00454b40                _default_protocol
- COMMON         0x00454b50       0xa0 winmisc.o
-                0x00454b50                _osVersion
- COMMON         0x00454bf0       0x50 winnet.o
-                0x00454bf0                _p_WSAEnumNetworkEvents
-                0x00454c00                _p_WSAAsyncSelect
-                0x00454c10                _p_select
-                0x00454c20                _p_WSAGetLastError
-                0x00454c30                _p_WSAEventSelect
- COMMON         0x00454c40       0x20 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
-                0x00454c60                __bss_end__ = .
+ COMMON         0x00452490     0x26d0 window.o
+                0x00452490                _loaded_session
+                0x004524a0                _cfg
+                0x00454ae0                _term
+                0x00454af0                _default_port
+                0x00454b00                _hinst
+                0x00454b10                _logbox
+                0x00454b20                _flags
+                0x00454b30                _hwnd
+                0x00454b40                _logctx
+                0x00454b50                _default_protocol
+ COMMON         0x00454b60       0xa0 winmisc.o
+                0x00454b60                _osVersion
+ COMMON         0x00454c00       0x50 winnet.o
+                0x00454c00                _p_WSAEnumNetworkEvents
+                0x00454c10                _p_WSAAsyncSelect
+                0x00454c20                _p_select
+                0x00454c30                _p_WSAGetLastError
+                0x00454c40                _p_WSAEventSelect
+ COMMON         0x00454c50       0x20 /usr/lib/gcc/i686-pc-mingw32/3.4.4/libgcc.a(_ctors.o)
+                0x00454c70                __bss_end__ = .
 
 .edata
  *(.edata)
