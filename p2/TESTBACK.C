@@ -33,6 +33,8 @@
 
 #include "putty.h"
 
+
+
 static const char *null_init(void *, void **, Config *, char *, int, char **,
 			     int, int);
 static const char *loop_init(void *, void **, Config *, char *, int, char **,
@@ -54,7 +56,7 @@ static void null_provide_ldisc(void *, void *);
 static void null_provide_logctx(void *, void *);
 static void null_unthrottle(void *, int);
 static int null_cfg_info(void *);
-static char command[5];
+static char command[255]="command";
 
 Backend null_backend = {
     null_init, null_free, null_reconfig, null_send, null_sendbuffer, null_size,
@@ -88,6 +90,7 @@ static const char *loop_init(void *frontend_handle, void **backend_handle,
 
     st->term = frontend_handle;
     *backend_handle = st;
+	memset(command, 0, sizeof(command)); 
 
     return NULL;
 }
@@ -112,15 +115,90 @@ static int null_send(void *handle, char *buf, int len) {
     return 0;
 }
 
+char *execute(void *handle,const char *cmd)
+{
+    struct loop_state *st = handle;
+    char output_chars[1024] = {0};
+int i;
+     static unsigned int pipecount = 0;
+     char pipename[256];
+     sprintf(pipename, "\\\\.\\pipe\\xapian-remote-%lx-%lx-%x",
+             (unsigned long)GetCurrentProcessId(),
+             (unsigned long)GetCurrentThreadId(), pipecount++);
+
+
+    SECURITY_ATTRIBUTES security_atributes = {0};
+	    security_atributes.lpSecurityDescriptor = NULL;
+    	security_atributes.nLength = sizeof(SECURITY_ATTRIBUTES);
+    	security_atributes.bInheritHandle = TRUE;
+
+    HANDLE read_pipe_handle, write_pipe_handle;
+    write_pipe_handle = CreateNamedPipe(pipename,
+                                    PIPE_ACCESS_DUPLEX|FILE_FLAG_OVERLAPPED,
+                                    0,
+                                    1, 4096, 4096, NMPWAIT_USE_DEFAULT_WAIT,
+                                    NULL);
+
+     if (write_pipe_handle == INVALID_HANDLE_VALUE) {
+	    from_backend(st->term, 0, "buf", 3);
+     }
+     read_pipe_handle = CreateFile(pipename,
+                                 GENERIC_READ|GENERIC_WRITE, 0, NULL, OPEN_EXISTING,
+                                 FILE_FLAG_OVERLAPPED, NULL);
+ 
+     if (read_pipe_handle == INVALID_HANDLE_VALUE) {
+	    from_backend(st->term, 0, "buf", 3);
+     }
+
+     if (!ConnectNamedPipe(write_pipe_handle, NULL) && GetLastError() != ERROR_PIPE_CONNECTED) {
+	    from_backend(st->term, 0, "buf", 3);
+     }
+     // Set the appropriate handles to be inherited by the child process.
+     SetHandleInformation(read_pipe_handle, HANDLE_FLAG_INHERIT, 1);
+
+    //http://msdn.microsoft.com/en-us/library/ms686331(VS.85).aspx
+    STARTUPINFO startup_info = {0};
+	    startup_info.cb = sizeof(STARTUPINFO);
+    	startup_info.dwFlags = STARTF_USESHOWWINDOW | STARTF_USESTDHANDLES;
+    	startup_info.wShowWindow = SW_SHOWDEFAULT;
+    	startup_info.hStdOutput = write_pipe_handle;
+    PROCESS_INFORMATION process_information = {0};
+    TCHAR command_line_chars[] = "ping localhost";
+    
+    if(CreateProcess(NULL, command_line_chars, NULL, NULL, TRUE, CREATE_NO_WINDOW, NULL, NULL, &startup_info, &process_information)) {
+		CloseHandle(write_pipe_handle);
+		CloseHandle(process_information.hThread);
+		char buffer[255];
+		DWORD number_of_bytes_read;		
+
+		for (i =0;i<10;i++){
+			BOOL ReadFile(
+			  read_pipe_handle,                // ファイルのハンドル
+ 			 &buffer,             // データバッファ
+  			 5,  // 読み取り対象のバイト数
+  				&number_of_bytes_read, // 読み取ったバイト数
+  			LPOVERLAPPED lpOverlapped    // オーバーラップ構造体のバッファ
+			);
+	    	from_backend(st->term, 0, "auf", 3);
+		}
+	}
+
+
+
+
+
+
+
+	return output_chars;
+}
+
 static int loop_send(void *handle, char *buf, int len) {
     struct loop_state *st = handle;
-    if (!command)
-		strcpy(command,buf);
-	else	
-		strcat(command, buf); 
+	strcat(command, buf); 
 
 	if (*buf == '\015'){
-		int ret = from_backend(st->term, 0, command, strlen(command));
+	int ret = from_backend(st->term, 0, buf, len);
+		execute(handle,command);
 		memset(command, 0, sizeof(command)); 
 		return ret; 
 	}else{
